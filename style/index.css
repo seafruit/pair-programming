@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    pading: 0;
+}
+
+body {
+    background-color: #222222;
+}
+
+#header {
+    position: fixed;
+    top: 20px;
+    left: 60px;
+}
+
+.block-center {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+.part1 .duck img {
+    margin-top: 10px;
+}
+
+.part1 .duck button {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    background: #EFFB28;
+    font-size: 16px;
+    line-height: 50px;
+    height: 50px;
+    border: none;
+}
+
+.level-1 .main-text img {
+    margin-top: 50px;
+}
+.level-1 .keyboard img{
+    margin-left:45px;
+}
+.level-1 .keyboard{
+    width:70%;
+    margin:0 auto;
+    margin-top:50px;
+}
+.level-1 .second-line{
+    margin-top:20px;
+}
