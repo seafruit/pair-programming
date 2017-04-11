@@ -16,6 +16,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 .begin__header {
     padding: 1rem 0;
     font-family: sans-serif;
+    font-size: 0.5rem;
 }
 
 .begin__pair-programming {
@@ -55,7 +56,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 80%;
 }
 
-.level1__header {
+.level1__header, .level2__header {
     padding: 1rem 0;
     width: 70%;
 }
@@ -75,24 +76,84 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 20%;
 }
 
-.level1__time {
-    display: flex;
-    flex-direction: row;
+.level1__time, .level2__time {
+    display: block;
     font-family: sans-serif;
+    font-size: 0.5rem;
 }
 
-.level1__number, .level1__tiled {
+.level1__number, .level1__tiled, .level2__number, .level2__tiled {
     font-size: 2rem;
     font-weight: bolder;
 }
 
-.level1__tiled {
+.level1__tiled, .level2__tiled {
     color: gray;
 }
 
-.level1__description {
+.level1__description, .level2__description{
     font-family: sans-serif;
     text-align: center;
+    font-size: 0.5rem;
+}
+
+.level2__body {
+    padding: 2rem;
+    position: relative;
+}
+
+.level2__body__mac {
+    width: 50%;
+    position: relative;
+}
+
+.level2__body__mac-screen {
+    position: absolute;
+    width: 55%;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.level2__body__mac-screen {
+
+}
+
+.level2__body__pear-mouth {
+    position: absolute;
+    width: 9%;
+    top: 3.0rem;
+    right: 1.5rem;
+}
+
+.level2__body__pear-eye-white {
+    position: absolute;
+    width: 45%;
+    top: 2.5rem;
+    right: 0.5rem;
+}
+
+.level2__body__pear-eye-ball {
+    position: absolute;
+    width: 37%;
+    top: 2.5rem;
+    right: 0.9rem;
+}
+
+.level2__body__floor {
+    position: absolute;
+    bottom: 0rem;
+}
+
+.level2__body__floor-light {
+    width: 42%;
+    position: absolute;
+    bottom: 0rem;
+    right: 3rem;
+}
+
+.level2__description__note {
+    color: yellow;
+    padding: 0.5rem 0;
 }
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
