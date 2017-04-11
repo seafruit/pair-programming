@@ -94,27 +94,31 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     font-family: sans-serif;
     text-align: center;
 }
+
 /*---------------------------------------------activity-start-----------------------------------------------*/
-.activity{
-    height:570px;
-}
+/*.activity {*/
+    /*height: 570px;*/
+/*}*/
+
 .activity-detail {
     background-color: #3C3C3C;
     padding: 40px 0;
-    width: 0;
-    height:0;
-    position:relative;
+    /*width: 0;*/
+    /*height: 0;*/
+    width:75%;
+    height:100%;
+    position: relative;
 }
 
 .activity-detail__target, .activity-detail__process {
     align-items: flex-start;
     width: 80%;
-    display: none;
-
+    /*display: none;*/
 }
 
 .activity-detail__target {
     font-size: 1.4rem;
+    line-height: 2rem;
 }
 
 .activity-detail__process {
@@ -135,8 +139,8 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .activity-detail__process--level .num {
-    flex: 1;
     align-items: flex-start;
+    padding-right:1rem;
 }
 
 .activity-detail__process--level .desciption {
@@ -151,4 +155,5 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     line-height: 1.5rem;
     margin-top: 15px;
 }
+
 /*---------------------------------------------activity-end-----------------------------------------------*/
