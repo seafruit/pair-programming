@@ -69,11 +69,13 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .level1__keys--row img {
-    width: 20%;
+    width: 15%;
+    padding: 0 0.5rem;
 }
 
 .level1__keys--row2 img {
-    width: 20%;
+    width: 15%;
+    padding:0 0.8rem;
 }
 
 .level1__time, .level2__time {
