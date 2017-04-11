@@ -1,58 +1,98 @@
-
-* {
-    margin: 0;
-    pading: 0;
-}
-
 body {
-    background-color: #222222;
-}
-
-#header {
-    position: fixed;
-    top: 20px;
-    left: 60px;
-}
-
-.block-center {
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-.head {
-    text-align: center;
+    background-color: black;
     color: white;
-    font-size: 20px;
-    padding-top: 80px;
 }
 
-.part1 .duck img {
-    margin-top: 10px;
+img {
+    max-width: 100%;
 }
 
-.part1 .duck button {
-    display: block;
-    margin: 0 auto;
+div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .books{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.begin__header {
+    padding: 1rem 0;
+    font-family: sans-serif;
+}
+
+.begin__pair-programming {
+    width: 70%;
+    padding: 1rem 0;
+}
+
+.begin__pair-programming-cn {
+    width: 30%;
+    padding-bottom: 1rem;
+}
+
+.begin__pear {
     width: 25%;
-    background: #EFFB28;
-    font-size: 16px;
-    line-height: 50px;
-    height: 50px;
-    border: none;
+    padding: 1rem 0;
 }
 
-.level-1 .main-text img {
-    margin-top: 50px;
+.begin__button {
+    border-radius: 0.2rem;
+    background: yellow;
+    padding: 1rem 7rem;
 }
-.level-1 .keyboard img{
-    margin-left:45px;
+
+.video {
+    padding-bottom: 2rem;
 }
-.level-1 .keyboard{
-    width:70%;
-    margin:0 auto;
-    margin-top:50px;
+
+.video__header {
+    padding: 1em;
+    font-family: sans-serif;
+    text-transform: uppercase;
 }
-.level-1 .second-line{
-    margin-top:20px;
+
+
+.video__layer1, .video__layer2, .video__layer3, .video__layer4, .video__layer5 {
+    padding: 1rem 2rem;
+    border: 1px solid yellow;
+    width: 80%;
 }
+
+.level1__header {
+    padding: 1rem 0;
+    width: 70%;
+}
+
+.level1__keys--row, .level1__keys--row2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+}
+
+.level1__keys--row img {
+    width: 20%;
+}
+
+.level1__keys--row2 img {
+    width: 20%;
+}
+
+.level1__time {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+
+.level1__number, .level1__tiled {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.level1__tiled {
+    color: gray;
+}
+
+.level1__description {
+    font-family: sans-serif;
+    text-align: center;
+}
+
