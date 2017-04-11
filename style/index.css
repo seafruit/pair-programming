@@ -56,7 +56,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 80%;
 }
 
-.level1__header, .level2__header {
+.level1__header, .level2__header, .level3__header {
     padding: 1rem 0;
     width: 70%;
 }
@@ -78,7 +78,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     padding:0 0.8rem;
 }
 
-.level1__time, .level2__time {
+.level1__time, .level2__time, .level3__time {
     display: block;
     font-family: sans-serif;
     font-size: 0.5rem;
@@ -93,7 +93,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     color: gray;
 }
 
-.level1__description, .level2__description{
+.level1__description, .level2__description, .level3__description{
     font-family: sans-serif;
     text-align: center;
     font-size: 0.5rem;
@@ -153,9 +153,42 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     right: 3rem;
 }
 
-.level2__description__note {
+.level2__description__note, .level3__description__note {
     color: yellow;
     padding: 0.5rem 0;
+}
+
+
+.level3__body {
+    position: relative;
+}
+
+.level3__hands {
+    flex-direction: row;
+    padding: 1.5rem 0;
+}
+
+.level3__hands img {
+    width: 40%;
+}
+
+.level3__left-hand {
+    padding-left: 2rem;
+}
+
+.level3__right-hand {
+    padding-right: 2rem;
+}
+
+.level3__background-vertical {
+    width: 19%;
+    position: absolute;
+    top: 0;
+}
+
+.level3__background-horizontal {
+    position: absolute;
+    top: 0;
 }
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
