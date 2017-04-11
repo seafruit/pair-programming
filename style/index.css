@@ -161,6 +161,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 
 .level3__body {
     position: relative;
+    padding: 2rem 2rem;
 }
 
 .level3__hands {
@@ -259,4 +260,35 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 .awards__header {
     margin-bottom: 2rem;
     line-height: 1.5rem;
+}
+
+.about-us {
+    font-family: sans-serif;
+}
+
+.about-us__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-us__tw {
+    flex: 0 0 70%
+}
+
+.about-us__tw__title {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us__tw__detail {
+    font-size: 0.5rem;
+}
+
+.about-us__code {
+    justify-content: center
+}
+
+.about-us__interactive {
+    font-size: 1rem;
 }
