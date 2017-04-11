@@ -97,11 +97,8 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
 .activity {
-    /*position: relative !important;*/
-    /*transform: scale(1) rotate(1440deg);*/
-    /*opacity: 1;*/
     position: relative;
-    width:100%;
+    width: 100%;
 }
 
 .activity-detail {
@@ -160,7 +157,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 /*---------------------------------------------awards-start-----------------------------------------------*/
 .awards {
     width: 80%;
-    position:relative;
+    position: relative;
 }
 
 .awards__header {
