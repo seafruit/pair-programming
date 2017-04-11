@@ -64,7 +64,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 80%;
 }
 
-.level1, .level2, .level3, .about-us {
+.level1, .level2, .level3 {
     padding: 1.5rem 0px;
 }
 
@@ -172,6 +172,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     padding: 0.5rem 0;
 }
 
+
 .level3__body {
     position: relative;
 }
@@ -200,15 +201,14 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
 .activity {
-    padding: 3rem 0;
     position: relative;
     width: 100%;
 }
 
 .activity-detail {
     background-color: #3C3C3C;
-    padding: 2rem 0;
-    width: 80%;
+    padding: 40px 0;
+    width: 75%;
     height: 100%;
     position: relative;
 }
@@ -262,8 +262,6 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 .awards {
     width: 80%;
     position: relative;
-    margin: 0 auto;
-    height: 100%;
 }
 
 .awards__header {
