@@ -1,5 +1,5 @@
 body {
-    background-color: #222;
+    background-color: #1c1c1c;
     color: white;
 }
 
@@ -16,27 +16,31 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 .begin__header {
     padding: 1rem 0;
     font-family: sans-serif;
+    font-size: 0.5rem;
 }
 
 .begin__pair-programming {
-    width: 70%;
+    width: 50%;
     padding: 1rem 0;
 }
 
 .begin__pair-programming-cn {
-    width: 30%;
+    width: 20%;
     padding-bottom: 1rem;
 }
 
 .begin__pear {
-    width: 25%;
+    width: 15%;
     padding: 1rem 0;
 }
 
 .begin__button {
+    border: none;
     border-radius: 0.2rem;
-    background: yellow;
-    padding: 1rem 7rem;
+    background: #f8e952;
+    width: 30%;
+    font-size: 0.5rem;
+    padding: 0.5rem 0;
 }
 
 .video {
@@ -44,55 +48,155 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .video__header {
-    padding: 1em;
+    font-size: 0.5rem;
+    padding: 1rem;
     font-family: sans-serif;
     text-transform: uppercase;
 }
 
-.video__layer1, .video__layer2, .video__layer3, .video__layer4, .video__layer5 {
+.video__body {
+    width: 80%
+}
+
+.video__layer1, .video__layer2, .video__layer3, .video__layer4, .video__player {
     padding: 1rem 2rem;
-    border: 1px solid yellow;
+    border: 1px solid #f8e952;
     width: 80%;
 }
 
-.level1__header {
+.level1, .level2, .level3 {
+    padding: 1.5rem 0px;
+}
+
+.level1__header, .level2__header, .level3__header {
     padding: 1rem 0;
-    width: 70%;
+    width: 40%;
+}
+
+.level1__keys {
+    padding: 1rem 0;
 }
 
 .level1__keys--row, .level1__keys--row2 {
-    width: 80%;
-    display: flex;
+    width: 70%;
     flex-direction: row;
     padding: 1rem 0;
+    justify-content: space-around;
 }
 
 .level1__keys--row img {
-    width: 20%;
+    width: 15%;
 }
 
 .level1__keys--row2 img {
-    width: 20%;
+    width: 15%;
 }
 
-.level1__time {
-    display: flex;
-    flex-direction: row;
+.level1__time, .level2__time, .level3__time {
+    display: block;
     font-family: sans-serif;
+    font-size: 0.5rem;
 }
 
-.level1__number, .level1__tiled {
+.level1__number, .level1__tiled, .level2__number, .level2__tiled {
     font-size: 2rem;
     font-weight: bolder;
 }
 
-.level1__tiled {
+.level1__tiled, .level2__tiled {
     color: gray;
 }
 
-.level1__description {
+.level1__description, .level2__description, .level3__description {
     font-family: sans-serif;
     text-align: center;
+    font-size: 0.5rem;
+}
+
+.level2__body {
+    padding: 2rem;
+    position: relative;
+}
+
+.level2__body__mac {
+    width: 35%;
+    position: relative;
+}
+
+.level2__body__mac-screen {
+    position: absolute;
+    width: 55%;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.level2__body__mac-screen {
+
+}
+
+.level2__body__pear-mouth {
+    position: absolute;
+    width: 9%;
+    top: 3.0rem;
+    right: 1.5rem;
+}
+
+.level2__body__pear-eye-white {
+    position: absolute;
+    width: 45%;
+    top: 2.5rem;
+    right: 0.5rem;
+}
+
+.level2__body__pear-eye-ball {
+    position: absolute;
+    width: 37%;
+    top: 2.5rem;
+    right: 0.9rem;
+}
+
+.level2__body__floor {
+    position: absolute;
+    bottom: 0rem;
+}
+
+.level2__body__floor-light {
+    width: 42%;
+    position: absolute;
+    bottom: 0rem;
+    right: 3rem;
+}
+
+.level2__description__note, .level3__description__note {
+    color: #f8e952;
+    padding: 0.5rem 0;
+}
+
+
+.level3__body {
+    position: relative;
+}
+
+.level3__background {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.level3__background-vertical {
+    width: 19%;
+    position: absolute;
+    top: 1rem;
+}
+
+.level3__hands {
+    flex-direction: row;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+}
+
+.level3__hands img {
+    width: 40%;
 }
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
@@ -163,4 +267,35 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 .awards__header {
     margin-bottom: 2rem;
     line-height: 1.5rem;
+}
+
+.about-us {
+    font-family: sans-serif;
+}
+
+.about-us__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-us__tw {
+    flex: 0 0 70%
+}
+
+.about-us__tw__title {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us__tw__detail {
+    font-size: 0.5rem;
+}
+
+.about-us__code {
+    justify-content: center
+}
+
+.about-us__interactive {
+    font-size: 1rem;
 }
