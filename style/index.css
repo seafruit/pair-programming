@@ -175,35 +175,28 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 
 .level3__body {
     position: relative;
-    padding: 2rem 2rem;
 }
 
-.level3__hands {
-    flex-direction: row;
-    padding: 1.5rem 0;
-}
-
-.level3__hands img {
-    width: 40%;
-}
-
-.level3__left-hand {
-    padding-left: 2rem;
-}
-
-.level3__right-hand {
-    padding-right: 2rem;
+.level3__background {
+    position: relative;
+    padding: 1rem 0;
 }
 
 .level3__background-vertical {
     width: 19%;
     position: absolute;
-    top: 0;
+    top: 1rem;
 }
 
-.level3__background-horizontal {
+.level3__hands {
+    flex-direction: row;
+    justify-content: center;
+    z-index: 2;
     position: absolute;
-    top: 0;
+}
+
+.level3__hands img {
+    width: 40%;
 }
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
