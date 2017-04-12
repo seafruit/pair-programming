@@ -180,16 +180,31 @@
     </div>
     <img src="./img/award.png" alt="奖品">
 </section>
-<section class="coaches">
-    <div class="coaches__left-arrow"></div>
+<section class="coaches" >
+    <div class="coaches__left-arrow" onclick="prevPhoto(this)"> < </div>
     <div class="coaches__photos">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <img src="img/photo/anfeng-yao.png" alt="" class="img--show">
+        <img src="img/photo/bin-wu.png" alt="" class="img--show">
+        <img src="img/photo/bingyu-lin.png" alt="" class="img--show">
+        <img src="img/photo/chongxiao-zhang.png" alt="" class="img--show">
+        <img src="img/photo/danni-yu.png" alt="" class="img--show">
+        <img src="img/photo/hao-xu.png" alt="" class="img--hide">
+        <img src="img/photo/jie-xiong.png" alt="" class="img--hide">
+        <img src="img/photo/Jim-Highsmith.png" alt="" class="img--hide">
+        <img src="img/photo/jingxian-zhuo.png" alt="" class="img--hide">
+        <img src="img/photo/linye-wu.png" alt="" class="img--hide">
+        <img src="img/photo/Martin-Fowler.png" alt="" class="img--hide">
+        <img src="img/photo/Mike-Mason.png" alt="" class="img--hide">
+        <img src="img/photo/Neal-Ford.png" alt="" class="img--hide">
+        <img src="img/photo/ni-wang.png" alt="" class="img--hide">
+        <img src="img/photo/Ola-Bini-Copy.png" alt="" class="img--hide">
+        <img src="img/photo/qihui-qin.png" alt="" class="img--hide">
+        <img src="img/photo/ran-xiao.png" alt="" class="img--hide">
+        <img src="img/photo/Rebecca-Parsons.png" alt="" class="img--hide">
+        <img src="img/photo/rujia-wang.png" alt="" class="img--hide">
+        <img src="img/photo/yun-yang.png" alt="" class="img--hide">
     </div>
-    <div class="coaches__right-arrow"></div>
+    <div class="coaches__right-arrow" onclick= "nextPhoto(this)"  > > </div>
 </section>
 <section class="books">
     <div class="books__left-arrow"></div>
@@ -225,5 +240,30 @@
     </div>
     <img src="img/background-bottom.png" alt="" class="background-bottom">
 </section>
+
+<script type="text/javascript">
+    var coachClickTimes = 0;
+    function prevPhoto() {
+        coachClickTimes -= 1;
+        showPhoto(coachClickTimes)
+    }
+    function nextPhoto() {
+        coachClickTimes += 1;
+        showPhoto(coachClickTimes)
+    }
+    function showPhoto(coachClickTimes) {
+        coachClickTimes = coachClickTimes % 4;
+
+        var coachesImgs = document.querySelectorAll(".coaches__photos img");
+        for (var i = 0; i <= 20; i++) {
+            if ((coachClickTimes) * 5 <= i && i <(coachClickTimes + 1) * 5) {
+                coachesImgs[i].style.display = 'block';
+
+            } else {
+                coachesImgs[i].style.display = 'none';
+            }
+        }
+    }
+</script>
 </body>
 </html>

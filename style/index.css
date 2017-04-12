@@ -275,6 +275,29 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     line-height: 1.5rem;
 }
 
+.coaches {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.coaches__photos {
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.coaches__photos img {
+    width: 17%;
+}
+
+.img--show {
+    display: block;
+}
+
+.img--hide {
+    display: none;
+}
+
 .about-us {
     font-family: sans-serif;
 }
