@@ -7,6 +7,10 @@ img {
     max-width: 100%;
 }
 
+section {
+    padding:3rem 0;
+}
+
 div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .books {
     display: flex;
     align-items: center;
@@ -192,6 +196,10 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     justify-content: center;
     z-index: 2;
     position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .level3__hands img {
