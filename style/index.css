@@ -283,6 +283,62 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 40%;
 }
 
+.star__red1 {
+    position: absolute;
+    width: 4%;
+    bottom: -5%;
+    right: 20%;
+}
+
+.star__red2 {
+    position: absolute;
+    width: 2%;
+    top: 9%;
+    right: 32%;
+}
+
+.star__red3 {
+    position: absolute;
+    width: 2%;
+    top: 30%;
+    left: 45%;
+}
+
+.star__yellow1 {
+    position: absolute;
+    width: 4%;
+    top: 57%;
+    left: 3%;
+}
+
+.star__yellow2 {
+    position: absolute;
+    width: 2%;
+    bottom: 3%;
+    left: 29%;
+}
+
+.star__orange1 {
+    position: absolute;
+    width: 2%;
+    bottom: 31%;
+    right: 40%;
+}
+
+.star__orange2 {
+    position: absolute;
+    width: 3%;
+    top: 12%;
+    left: 24%;
+}
+
+.star__orange3 {
+    position: absolute;
+    width: 3%;
+    top: 26%;
+    right: 8%;
+}
+
 /*---------------------------------------------activity-start-----------------------------------------------*/
 .activity {
     padding: 3rem 0;
