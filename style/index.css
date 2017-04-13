@@ -23,6 +23,52 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     font-size: 0.5rem;
 }
 
+.begin__body {
+    position: relative;
+}
+
+.heavenly-body__left1 {
+    position: absolute;
+    left: 3%;
+    width: 7%;
+    top: 10%;
+}
+
+.heavenly-body__left2 {
+    position: absolute;
+    top: 44%;
+    left: 11%;
+    width: 4%;
+}
+
+.heavenly-body__left3 {
+    position: absolute;
+    width: 4%;
+    top: 31%;
+    left: 21%;
+}
+
+.heavenly-body__right1 {
+    position: absolute;
+    top: 42%;
+    width: 6%;
+    right: 8%;
+}
+
+.heavenly-body__right2 {
+    position: absolute;
+    top: 0%;
+    width: 7%;
+    right: 7%;
+}
+
+.heavenly-body__right3 {
+    position: absolute;
+    top: 33%;
+    width: 4%;
+    right: 19%;
+}
+
 .begin__pair-programming {
     width: 50%;
     padding: 1rem 0;
