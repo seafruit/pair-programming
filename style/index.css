@@ -220,6 +220,34 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     left: 55%;
 }
 
+.heavenly-body__light1 {
+    position: absolute;
+    width: 3%;
+    top: 4%;
+    right: 33%;
+}
+
+.heavenly-body__light2 {
+    position: absolute;
+    width: 4%;
+    top: 13%;
+    right: 32%;
+}
+
+.heavenly-body__light3 {
+    position: absolute;
+    width: 4%;
+    top: 25%;
+    right: 32%;
+}
+
+.heavenly-body__light4 {
+    position: absolute;
+    width: 2%;
+    top: 35%;
+    right: 34%;
+}
+
 .level2__description__note, .level3__description__note {
     color: #f8e952;
     padding: 0.5rem 0;
