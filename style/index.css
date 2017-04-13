@@ -118,57 +118,60 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .level2__body {
-    padding: 2rem;
     position: relative;
+    margin: 1rem 0;
+}
+
+.level2__body__floor-back-ground :nth-child(1)
+{
+    visibility: hidden;
+}
+
+.level2__body__floor-light {
+    position: absolute;
+    bottom: 0;
+    width: 43%;
+    left: 44%;
 }
 
 .level2__body__mac {
-    width: 35%;
-    position: relative;
+    width: 25%;
+    position: absolute;
 }
 
-.level2__body__mac-screen {
+.level2__body__pear {
     position: absolute;
     width: 55%;
-    top: 1.5rem;
-    right: 1.5rem;
-}
-
-.level2__body__mac-screen {
-
+    top: 15%;
+    left: 31%;
 }
 
 .level2__body__pear-mouth {
     position: absolute;
-    width: 9%;
-    top: 3.0rem;
-    right: 1.5rem;
+    top: 42%;
+    width: 5%;
+    left: 66%;
 }
 
 .level2__body__pear-eye-white {
     position: absolute;
-    width: 45%;
-    top: 2.5rem;
-    right: 0.5rem;
+    top: 35%;
+    width: 28%;
+    left: 55%;
+}
+
+.level2__body__hand {
+    position: absolute;
+    top: 41%;
+    width: 15%;
+    left: 38%;
 }
 
 .level2__body__pear-eye-ball {
     position: absolute;
-    width: 37%;
-    top: 2.5rem;
-    right: 0.9rem;
-}
-
-.level2__body__floor {
-    position: absolute;
-    bottom: 0rem;
-}
-
-.level2__body__floor-light {
-    width: 42%;
-    position: absolute;
-    bottom: 0rem;
-    right: 3rem;
+    top: 35%;
+    width: 23%;
+    left: 55%;
 }
 
 .level2__description__note, .level3__description__note {
