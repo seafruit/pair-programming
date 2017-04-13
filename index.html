@@ -235,15 +235,18 @@
     <div class="coaches__right-arrow" onclick= "nextPhoto(this)"  > > </div>
 </section>
 <section class="books">
-    <div class="books__left-arrow"></div>
+    <div class="books__left-arrow" onClick="prevBook(this)"> < </div>
     <div class="books__covers">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <img src="img/books/TW.jpg" alt="" class="book--show">
+        <img src="img/books/bad-code.jpg" alt="" class="book--show">
+        <img src="img/books/building-microservice.jpg" alt="" class="book--show">
+        <img src="img/books/effective-js.jpg" alt="" class="book--show">
+        <img src="img/books/TW2.jpg" alt="" class="book--hide">
+        <img src="img/books/js-core.jpg" alt="" class="book--hide">
+        <img src="img/books/mobile-22.jpg" alt="" class="book--hide">
+        <img src="img/books/refactoring.jpg" alt="" class="book--hide">
     </div>
-    <div class="books__right-arrow"></div>
+    <div class="books__right-arrow" onClick="nextBook(this)"> > </div>
 </section>
 <section class="about-us">
     <div class="about-us__content">
@@ -271,6 +274,7 @@
 
 <script type="text/javascript">
     var coachClickTimes = 0;
+    var bookClickTimes = 0;
     function prevPhoto() {
         coachClickTimes -= 1;
         showPhoto(coachClickTimes)
@@ -279,6 +283,7 @@
         coachClickTimes += 1;
         showPhoto(coachClickTimes)
     }
+
     function showPhoto(coachClickTimes) {
         coachClickTimes = coachClickTimes % 4;
 
@@ -286,9 +291,30 @@
         for (var i = 0; i <= 20; i++) {
             if ((coachClickTimes) * 5 <= i && i <(coachClickTimes + 1) * 5) {
                 coachesImgs[i].style.display = 'block';
-
             } else {
                 coachesImgs[i].style.display = 'none';
+            }
+        }
+    }
+
+    function prevBook() {
+        bookClickTimes -= 1;
+        showBook(bookClickTimes)
+    }
+    function nextBook() {
+        bookClickTimes += 1;
+        showBook(bookClickTimes)
+    }
+
+    function showBook(bookClickTimes) {
+        bookClickTimes = bookClickTimes % 2;
+
+        var bookImgs = document.querySelectorAll(".books__covers img");
+        for (var i = 0; i <= 8; i++) {
+            if ((bookClickTimes) * 4 <= i && i <(bookClickTimes + 1) * 4) {
+                bookImgs[i].style.display = 'block';
+            } else {
+                bookImgs[i].style.display = 'none';
             }
         }
     }
