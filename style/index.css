@@ -35,10 +35,17 @@ section {
     padding:3rem 0;
 }
 
-div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .books {
+div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.coaches, .books {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .begin__header {
@@ -164,6 +171,11 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 
 .level1__keys--row2 img {
     width: 15%;
+}
+
+.keep-width-element {
+    height: 1px;
+    visibility: hidden
 }
 
 .level1__time, .level2__time, .level3__time {
@@ -425,20 +437,22 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 80%;
     margin: 0 auto;
     padding-bottom: 2rem;
+    left: 0;
+    right: 0;
 }
 
 .awards__header {
     padding-bottom: 2rem;
     line-height: 1.5rem;
+    text-align: center;
 }
 
 .coaches {
-    flex-direction: row;
-    justify-content: center;
+    padding: 1rem 0;
 }
 
 .coaches__photos {
-    width: 80%;
+    width: 90%;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -457,12 +471,12 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 
 
 .books {
-    flex-direction: row;
-    justify-content: center;
+    width: 80%;
+    padding: 3rem 0;
 }
 
 .books__covers {
-    width: 80%;
+    width: 90%;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -484,13 +498,14 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .about-us__content {
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .about-us__tw {
-    flex: 0 0 70%
+    flex: 0 0 50%;
 }
 
 .about-us__tw__title {
@@ -503,9 +518,27 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .about-us__code {
-    justify-content: center
+    flex: 0 0 50%;
 }
 
 .about-us__interactive {
-    font-size: 1rem;
+    font-size: 0.8rem;
+}
+
+
+.skrollable {
+    position:fixed;
+    z-index:100;
+}
+
+.skrollr-mobile .skrollable {
+    position:absolute;
+}
+
+.skrollable .skrollable {
+    position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+    position:static;
 }
