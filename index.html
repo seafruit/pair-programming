@@ -209,7 +209,7 @@
     <img src="./img/award.png" alt="奖品">
 </section>
 <section class="coaches" >
-    <div class="coaches__left-arrow" onclick="prevPhoto(this)"> < </div>
+    <div class="coaches__left-arrow" onclick="prevArrow(true)"> < </div>
     <div class="coaches__photos">
         <img src="img/photo/anfeng-yao.png" alt="" class="img--show">
         <img src="img/photo/bin-wu.png" alt="" class="img--show">
@@ -232,10 +232,10 @@
         <img src="img/photo/rujia-wang.png" alt="" class="img--hide">
         <img src="img/photo/yun-yang.png" alt="" class="img--hide">
     </div>
-    <div class="coaches__right-arrow" onclick= "nextPhoto(this)"  > > </div>
+    <div class="coaches__right-arrow" onclick= "nextArrow(true)"  > > </div>
 </section>
 <section class="books">
-    <div class="books__left-arrow" onClick="prevBook(this)"> < </div>
+    <div class="books__left-arrow" onClick="prevArrow(false)"> < </div>
     <div class="books__covers">
         <img src="img/books/TW.jpg" alt="" class="book--show">
         <img src="img/books/bad-code.jpg" alt="" class="book--show">
@@ -246,7 +246,7 @@
         <img src="img/books/mobile-22.jpg" alt="" class="book--hide">
         <img src="img/books/refactoring.jpg" alt="" class="book--hide">
     </div>
-    <div class="books__right-arrow" onClick="nextBook(this)"> > </div>
+    <div class="books__right-arrow" onClick="nextArrow(false)"> > </div>
 </section>
 <section class="about-us">
     <div class="about-us__content">
@@ -273,48 +273,49 @@
 </section>
 
 <script type="text/javascript">
-    var coachClickTimes = 0;
-    var bookClickTimes = 0;
-    function prevPhoto() {
-        coachClickTimes -= 1;
-        showPhoto(coachClickTimes)
-    }
-    function nextPhoto() {
-        coachClickTimes += 1;
-        showPhoto(coachClickTimes)
-    }
+    var coachActiveTurnIndex = 0;
+    var bookActiveTurnIndex = 0;
 
-    function showPhoto(coachClickTimes) {
-        coachClickTimes = coachClickTimes % 4;
+    var coachElementClass = '.coaches__photos img';
+    var bookElementClass = '.books__covers img';
 
-        var coachesImgs = document.querySelectorAll(".coaches__photos img");
-        for (var i = 0; i <= 20; i++) {
-            if ((coachClickTimes) * 5 <= i && i <(coachClickTimes + 1) * 5) {
-                coachesImgs[i].style.display = 'block';
-            } else {
-                coachesImgs[i].style.display = 'none';
-            }
+    var numberOfCoachEachTurn = 5;
+    var numberOfBookEachTurn = 4;
+
+
+    function prevArrow(isCoach) {
+        if (isCoach) {
+            coachActiveTurnIndex += 3;
+            coachActiveTurnIndex = coachActiveTurnIndex % 4;
+            showPic(coachActiveTurnIndex, coachElementClass, numberOfCoachEachTurn)
+        } else {
+            showBook()
         }
     }
 
-    function prevBook() {
-        bookClickTimes -= 1;
-        showBook(bookClickTimes)
-    }
-    function nextBook() {
-        bookClickTimes += 1;
-        showBook(bookClickTimes)
+    function nextArrow(isCoach) {
+        if (isCoach) {
+            coachActiveTurnIndex += 1;
+            coachActiveTurnIndex = coachActiveTurnIndex % 4;
+            showPic(coachActiveTurnIndex, coachElementClass, numberOfCoachEachTurn)
+        } else {
+            showBook()
+        }
     }
 
-    function showBook(bookClickTimes) {
-        bookClickTimes = bookClickTimes % 2;
+    function showBook() {
+        bookActiveTurnIndex += 1;
+        bookActiveTurnIndex = bookActiveTurnIndex % 2;
+        showPic(bookActiveTurnIndex, bookElementClass, numberOfBookEachTurn)
+    }
 
-        var bookImgs = document.querySelectorAll(".books__covers img");
-        for (var i = 0; i <= 8; i++) {
-            if ((bookClickTimes) * 4 <= i && i <(bookClickTimes + 1) * 4) {
-                bookImgs[i].style.display = 'block';
+    function showPic(clickTimes, className, numberOfEachTurn) {
+        var pics = document.querySelectorAll(className);
+        for (var i = 0; i <= pics.length; i++) {
+            if ((clickTimes) * numberOfEachTurn <= i && i < (clickTimes + 1) * numberOfEachTurn) {
+                pics[i].style.display = 'block';
             } else {
-                bookImgs[i].style.display = 'none';
+                pics[i].style.display = 'none';
             }
         }
     }
