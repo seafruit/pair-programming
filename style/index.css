@@ -173,7 +173,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .level1__number, .level1__tiled, .level2__number, .level2__tiled {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
