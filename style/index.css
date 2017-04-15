@@ -130,8 +130,10 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 }
 
 .video__body {
-    width: 100%;
     position: relative;
+    padding-bottom: 50%;
+    width: 80%;
+    border: 1px solid #f8e952;
 }
 
 .video-frame__layer1 {
@@ -142,7 +144,6 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 }
 
 .video-frame__layer2 {
-    position: absolute;
     height: 0;
     padding-bottom: 35%;
     border: 1px solid #f8e952;
@@ -151,7 +152,6 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 }
 
 .video-frame__layer3 {
-     position: absolute;
      height: 0;
      padding-bottom: 30%;
      border: 1px solid #f8e952;
@@ -160,7 +160,6 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
  }
 
 .video-frame__layer4 {
-    position: absolute;
     height: 0;
     padding-bottom: 25%;
     border: 1px solid #f8e952;
@@ -169,7 +168,6 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 }
 
 .video-frame__layer5 {
-    position: absolute;
     height: 0;
     padding-bottom: 20%;
     border: 1px solid #f8e952;
