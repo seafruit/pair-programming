@@ -37,7 +37,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
     flex-direction: column;
 }
 
-.begin, .video, .level1, .level2, .level3 {
+.begin, .video, .level1, .level2, .level3, .about-us {
     width: 100%;
 }
 
