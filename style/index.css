@@ -130,13 +130,51 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 }
 
 .video__body {
-    width: 80%
+    width: 100%;
+    position: relative;
 }
 
-.video__layer1, .video__layer2, .video__layer3, .video__layer4, .video__player {
-    padding: 1rem 2rem;
-    border: 1px solid #f8e952;
+.video-frame__layer1 {
+    padding-bottom: 40%;
+    height: 0;
     width: 80%;
+    border: 1px solid #f8e952;
+}
+
+.video-frame__layer2 {
+    position: absolute;
+    height: 0;
+    padding-bottom: 35%;
+    border: 1px solid #f8e952;
+    width: 70%;
+    top: 6%;
+}
+
+.video-frame__layer3 {
+     position: absolute;
+     height: 0;
+     padding-bottom: 30%;
+     border: 1px solid #f8e952;
+     width: 60%;
+     top: 12%;
+ }
+
+.video-frame__layer4 {
+    position: absolute;
+    height: 0;
+    padding-bottom: 25%;
+    border: 1px solid #f8e952;
+    width: 50%;
+    top: 18%;
+}
+
+.video-frame__layer5 {
+    position: absolute;
+    height: 0;
+    padding-bottom: 20%;
+    border: 1px solid #f8e952;
+    width: 40%;
+    top: 24%;
 }
 
 .level1, .level2, .level3 {
