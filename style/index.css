@@ -31,14 +31,14 @@ img {
     max-width: 100%;
 }
 
-section {
-    padding:3rem 0;
-}
-
 div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.begin, .video, .level1, .level2, .level3 {
+    width: 100%;
 }
 
 .coaches, .books {
@@ -478,6 +478,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 }
 
 .coaches {
+    width: 80%;
     padding: 1rem 0;
 }
 
