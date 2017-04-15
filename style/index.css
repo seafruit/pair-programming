@@ -1,25 +1,37 @@
 @media screen and (min-width: 320px) {
-    html {font-size: 10px;}
+    html {
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 360px) {
-    html {font-size: 12px;}
+    html {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 400px) {
-    html {font-size: 14px;}
+    html {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width: 440px) {
-    html {font-size: 16px;}
+    html {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 480px) {
-    html {font-size: 18px;}
+    html {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 640px) {
-    html {font-size: 26px;}
+    html {
+        font-size: 26px;
+    }
 }
 
 body {
@@ -32,7 +44,7 @@ img {
 }
 
 section {
-    padding:3rem 0;
+    padding: 3rem 0;
 }
 
 div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .books {
@@ -192,8 +204,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     margin: 1rem 0;
 }
 
-.level2__body__floor-back-ground :nth-child(1)
-{
+.level2__body__floor-back-ground :nth-child(1) {
     visibility: hidden;
 }
 
@@ -364,14 +375,9 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
-.activity {
-    padding: 3rem 0;
-    width: 100%;
-}
-
 .activity-detail {
     background-color: #3C3C3C;
-    padding: 3rem 0;
+    padding: 2rem 0;
     width: 80%;
 }
 
@@ -381,14 +387,15 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .activity-detail__target {
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size: .8rem;
+    line-height: 1.2rem;
 }
 
 .activity-detail__process {
     position: relative;
-    line-height: 2.5rem;
-    padding-top: 2rem;
+    line-height: 1.5rem;
+    font-size: .8rem;
+    padding-top: 1rem;
     color: #E4F02A;
 }
 
@@ -416,7 +423,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 75%;
     align-items: center;
     margin: 0 auto;
-    line-height: 1.5rem;
+    line-height: 1rem;
     padding-top: 1rem;
 }
 
@@ -430,6 +437,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 .awards__header {
     padding-bottom: 2rem;
     line-height: 1.5rem;
+    font-size: .8rem;
 }
 
 .coaches {
@@ -454,7 +462,6 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 .img--hide {
     display: none;
 }
-
 
 .books {
     flex-direction: row;
