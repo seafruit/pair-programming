@@ -520,7 +520,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .about-us__tw {
-    flex: 0 0 50%;
+    flex: 0 0 60%;
 }
 
 .about-us__tw__title {
@@ -533,9 +533,15 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .about-us__code {
-    flex: 0 0 50%;
+    flex: 0 0 40%;
+    align-items: flex-end;
 }
 
 .about-us__interactive {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
+    padding: 1rem 0;
+}
+
+.about-us__QR-Code {
+    width: 50%;
 }
