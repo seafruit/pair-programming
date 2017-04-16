@@ -137,42 +137,31 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 }
 
 .video-frame__layer1 {
-    padding-bottom: 40%;
+    padding-bottom: 50%;
     height: 0;
-    width: 80%;
+    width: 77%;
     border: 1px solid #f8e952;
 }
 
 .video-frame__layer2 {
     height: 0;
-    padding-bottom: 35%;
+    padding-bottom: 40%;
     border: 1px solid #f8e952;
-    width: 70%;
-    top: 6%;
+    width: 63%;
 }
 
 .video-frame__layer3 {
-     height: 0;
-     padding-bottom: 30%;
-     border: 1px solid #f8e952;
-     width: 60%;
-     top: 12%;
+    height: 0;
+    padding-bottom: 37%;
+    border: 1px solid #f8e952;
+    width: 58%;
  }
 
 .video-frame__layer4 {
     height: 0;
-    padding-bottom: 25%;
+    padding-bottom: 31%;
     border: 1px solid #f8e952;
-    width: 50%;
-    top: 18%;
-}
-
-.video-frame__layer5 {
-    height: 0;
-    padding-bottom: 20%;
-    border: 1px solid #f8e952;
-    width: 40%;
-    top: 24%;
+    width: 48%;
 }
 
 .level1, .level2, .level3 {
