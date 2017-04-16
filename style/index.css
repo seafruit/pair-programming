@@ -89,6 +89,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     position: relative;
     width: 100%;
 }
+
 .begin__sign-up__ground {
     width: 100%;
 }
@@ -146,7 +147,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     padding-bottom: 37%;
     border: 1px solid #f8e952;
     width: 58%;
- }
+}
 
 .video-frame__layer4 {
     height: 0;
@@ -214,13 +215,12 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     background: url(../img/background.png) repeat;
     background-size: contain;
     position: absolute;
-    top:0%;
+    top: 0%;
     width: 100%;
     height: 300%;
 }
 
-.level2__body__floor-back-ground :nth-child(1)
-{
+.level2__body__floor-back-ground :nth-child(1) {
     visibility: hidden;
 }
 
@@ -396,6 +396,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .activity-detail {
+    font-size: .8rem;
     background-color: #3C3C3C;
     padding: 3rem 0;
     width: 80%;
@@ -407,14 +408,13 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .activity-detail__target {
-    font-size: 1.4rem;
-    line-height: 2rem;
+    font-size:.9rem;
 }
 
 .activity-detail__process {
     position: relative;
-    line-height: 2.5rem;
-    padding-top: 2rem;
+    line-height: 1.2rem;
+    padding-top: 1.5rem;
     color: #E4F02A;
 }
 
@@ -430,7 +430,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 
 .activity-detail__process--level .num {
     align-items: flex-start;
-    padding-right: 1rem;
+    padding-right: .5rem;
 }
 
 .activity-detail__process--level .desciption {
@@ -442,7 +442,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     width: 75%;
     align-items: center;
     margin: 0 auto;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
     padding-top: 1rem;
 }
 
@@ -456,6 +456,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .awards__header {
+    font-size: .8rem;
     padding-bottom: 2rem;
     line-height: 1.5rem;
     text-align: center;
@@ -483,7 +484,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 .img--hide {
     display: none;
 }
-
 
 .books {
     width: 80%;
