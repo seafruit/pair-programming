@@ -545,3 +545,19 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 .about-us__QR-Code {
     width: 50%;
 }
+
+.foot {
+    align-items: flex-start;
+    width: 80%;
+    color: gray;
+    font-size: 0.5rem;
+}
+
+.foot__entry-point {
+    flex-direction: row;
+    padding: 1rem 0;
+}
+
+.foot__copy-right {
+
+}

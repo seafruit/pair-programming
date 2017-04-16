@@ -5,3 +5,8 @@ html {
 .level2__body, .level3__body {
     width: 70%;
 }
+
+.foot__entry-point {
+    width: 50%;
+    justify-content: space-between;
+}
