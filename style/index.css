@@ -145,8 +145,8 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 
 .video__body {
     position: relative;
-    padding-bottom: 50%;
-    width: 80%;
+    padding-bottom: 40%;
+    width: 70%;
     border: 1px solid #f8e952;
 }
 
