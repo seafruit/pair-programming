@@ -10,3 +10,8 @@ html {
 .thought-works-logo {
     width: 70%;
 }
+
+.last-part-do-not-parallax {
+    position: absolute;
+    top: 2000px
+}

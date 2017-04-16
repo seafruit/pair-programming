@@ -10,3 +10,8 @@ html {
     width: 50%;
     justify-content: space-between;
 }
+
+.last-part-do-not-parallax {
+    position: absolute;
+    top: 2450px
+}
