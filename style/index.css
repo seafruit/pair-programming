@@ -1,39 +1,3 @@
-@media screen and (min-width: 320px) {
-    html {
-        font-size: 10px;
-    }
-}
-
-@media screen and (min-width: 360px) {
-    html {
-        font-size: 12px;
-    }
-}
-
-@media screen and (min-width: 400px) {
-    html {
-        font-size: 14px;
-    }
-}
-
-@media screen and (min-width: 440px) {
-    html {
-        font-size: 16px;
-    }
-}
-
-@media screen and (min-width: 480px) {
-    html {
-        font-size: 18px;
-    }
-}
-
-@media screen and (min-width: 640px) {
-    html {
-        font-size: 26px;
-    }
-}
-
 body {
     background-color: #1c1c1c;
     color: white;
@@ -43,14 +7,21 @@ img {
     max-width: 100%;
 }
 
-section {
-    padding: 3rem 0;
-}
-
-div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .books {
+div, .begin, .video, .level1, .level2, .activity, .awards {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.begin, .video, .level1, .level2, .level3, .about-us {
+    width: 100%;
+}
+
+.coaches, .books {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .begin__header {
@@ -67,12 +38,10 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     position: absolute;
     left: 3%;
     width: 7%;
-    top: 10%;
 }
 
 .heavenly-body__left2 {
     position: absolute;
-    top: 44%;
     left: 11%;
     width: 4%;
 }
@@ -80,27 +49,23 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 .heavenly-body__left3 {
     position: absolute;
     width: 4%;
-    top: 31%;
     left: 21%;
 }
 
 .heavenly-body__right1 {
     position: absolute;
-    top: 42%;
     width: 6%;
     right: 8%;
 }
 
 .heavenly-body__right2 {
     position: absolute;
-    top: 0%;
     width: 7%;
     right: 7%;
 }
 
 .heavenly-body__right3 {
     position: absolute;
-    top: 33%;
     width: 4%;
     right: 19%;
 }
@@ -117,16 +82,31 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 
 .begin__pear {
     width: 15%;
-    padding: 1rem 0;
+    padding-top: 1rem;
 }
 
-.begin__button {
+.begin__sign-up {
+    position: relative;
+    width: 100%;
+}
+.begin__sign-up__ground {
+    width: 100%;
+}
+
+.begin__sign-up__button {
     border: none;
     border-radius: 0.2rem;
     background: #f8e952;
-    width: 30%;
+    width: 26%;
+    max-width: 28rem;
     font-size: 0.5rem;
     padding: 0.5rem 0;
+}
+
+.begin__sign-up__button button {
+    border: none;
+    background: #f8e952;
+    font-size: 0.5rem;
 }
 
 .video {
@@ -141,17 +121,38 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .video__body {
-    width: 80%
-}
-
-.video__layer1, .video__layer2, .video__layer3, .video__layer4, .video__player {
-    padding: 1rem 2rem;
+    position: relative;
+    padding-bottom: 40%;
+    width: 70%;
     border: 1px solid #f8e952;
-    width: 80%;
 }
 
-.level1, .level2, .level3 {
-    padding: 1.5rem 0px;
+.video-frame__layer1 {
+    padding-bottom: 50%;
+    height: 0;
+    width: 77%;
+    border: 1px solid #f8e952;
+}
+
+.video-frame__layer2 {
+    height: 0;
+    padding-bottom: 40%;
+    border: 1px solid #f8e952;
+    width: 63%;
+}
+
+.video-frame__layer3 {
+    height: 0;
+    padding-bottom: 37%;
+    border: 1px solid #f8e952;
+    width: 58%;
+ }
+
+.video-frame__layer4 {
+    height: 0;
+    padding-bottom: 31%;
+    border: 1px solid #f8e952;
+    width: 48%;
 }
 
 .level1__header, .level2__header, .level3__header {
@@ -164,7 +165,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .level1__keys--row, .level1__keys--row2 {
-    width: 70%;
+    width: 50%;
     flex-direction: row;
     padding: 1rem 0;
     justify-content: space-around;
@@ -178,14 +179,20 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 15%;
 }
 
+.keep-width-element {
+    height: 1px;
+    visibility: hidden
+}
+
 .level1__time, .level2__time, .level3__time {
     display: block;
     font-family: sans-serif;
     font-size: 0.5rem;
+    padding-top: 1rem;
 }
 
 .level1__number, .level1__tiled, .level2__number, .level2__tiled {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-weight: bolder;
 }
 
@@ -201,10 +208,19 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 
 .level2__body {
     position: relative;
-    margin: 1rem 0;
 }
 
-.level2__body__floor-back-ground :nth-child(1) {
+.level1-level2-level3__back-ground {
+    background: url(../img/background.png) repeat;
+    background-size: contain;
+    position: absolute;
+    top:0%;
+    width: 100%;
+    height: 300%;
+}
+
+.level2__body__floor-back-ground :nth-child(1)
+{
     visibility: hidden;
 }
 
@@ -290,17 +306,16 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 
 .level3__body {
     position: relative;
+    max-width: 140rem;
 }
 
 .level3__background {
     position: relative;
-    padding: 1rem 0;
 }
 
 .level3__background-vertical {
     width: 19%;
     position: absolute;
-    top: 1rem;
 }
 
 .level3__hands {
@@ -375,9 +390,14 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
+.activity {
+    padding: 3rem 0;
+    width: 100%;
+}
+
 .activity-detail {
     background-color: #3C3C3C;
-    padding: 2rem 0;
+    padding: 3rem 0;
     width: 80%;
 }
 
@@ -387,15 +407,14 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .activity-detail__target {
-    font-size: .8rem;
-    line-height: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
 }
 
 .activity-detail__process {
     position: relative;
-    line-height: 1.5rem;
-    font-size: .8rem;
-    padding-top: 1rem;
+    line-height: 2.5rem;
+    padding-top: 2rem;
     color: #E4F02A;
 }
 
@@ -423,7 +442,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 75%;
     align-items: center;
     margin: 0 auto;
-    line-height: 1rem;
+    line-height: 1.5rem;
     padding-top: 1rem;
 }
 
@@ -432,21 +451,23 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     width: 80%;
     margin: 0 auto;
     padding-bottom: 2rem;
+    left: 0;
+    right: 0;
 }
 
 .awards__header {
     padding-bottom: 2rem;
     line-height: 1.5rem;
-    font-size: .8rem;
+    text-align: center;
 }
 
 .coaches {
-    flex-direction: row;
-    justify-content: center;
+    width: 80%;
+    padding: 1rem 0;
 }
 
 .coaches__photos {
-    width: 80%;
+    width: 90%;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -463,13 +484,14 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
     display: none;
 }
 
+
 .books {
-    flex-direction: row;
-    justify-content: center;
+    width: 80%;
+    padding: 3rem 0;
 }
 
 .books__covers {
-    width: 80%;
+    width: 90%;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -491,13 +513,14 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .about-us__content {
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .about-us__tw {
-    flex: 0 0 70%
+    flex: 0 0 50%;
 }
 
 .about-us__tw__title {
@@ -510,9 +533,9 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards, .coaches, .b
 }
 
 .about-us__code {
-    justify-content: center
+    flex: 0 0 50%;
 }
 
 .about-us__interactive {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
