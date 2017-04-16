@@ -1,27 +1,3 @@
-@media screen and (min-width: 320px) {
-    html {font-size: 10px;}
-}
-
-@media screen and (min-width: 360px) {
-    html {font-size: 12px;}
-}
-
-@media screen and (min-width: 400px) {
-    html {font-size: 14px;}
-}
-
-@media screen and (min-width: 440px) {
-    html {font-size: 16px;}
-}
-
-@media screen and (min-width: 480px) {
-    html {font-size: 18px;}
-}
-
-@media screen and (min-width: 640px) {
-    html {font-size: 26px;}
-}
-
 body {
     background-color: #1c1c1c;
     color: white;
@@ -31,7 +7,7 @@ img {
     max-width: 100%;
 }
 
-div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
+div, .begin, .video, .level1, .level2, .activity, .awards {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -130,6 +106,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 .begin__sign-up__button button {
     border: none;
     background: #f8e952;
+    font-size: 0.5rem;
 }
 
 .video {
@@ -178,10 +155,6 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
     width: 48%;
 }
 
-.level1, .level2, .level3 {
-    padding: 1.5rem 0px;
-}
-
 .level1__header, .level2__header, .level3__header {
     padding: 1rem 0;
     width: 40%;
@@ -192,7 +165,7 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 }
 
 .level1__keys--row, .level1__keys--row2 {
-    width: 70%;
+    width: 50%;
     flex-direction: row;
     padding: 1rem 0;
     justify-content: space-around;
@@ -215,10 +188,11 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
     display: block;
     font-family: sans-serif;
     font-size: 0.5rem;
+    padding-top: 1rem;
 }
 
 .level1__number, .level1__tiled, .level2__number, .level2__tiled {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     font-weight: bolder;
 }
 
@@ -234,7 +208,15 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 
 .level2__body {
     position: relative;
-    margin: 1rem 0;
+}
+
+.level1-level2-level3__back-ground {
+    background: url(../img/background.png) repeat;
+    background-size: contain;
+    position: absolute;
+    top:0%;
+    width: 100%;
+    height: 300%;
 }
 
 .level2__body__floor-back-ground :nth-child(1)
@@ -324,17 +306,16 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 
 .level3__body {
     position: relative;
+    max-width: 140rem;
 }
 
 .level3__background {
     position: relative;
-    padding: 1rem 0;
 }
 
 .level3__background-vertical {
     width: 19%;
     position: absolute;
-    top: 1rem;
 }
 
 .level3__hands {
@@ -557,22 +538,4 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 
 .about-us__interactive {
     font-size: 0.8rem;
-}
-
-
-.skrollable {
-    position:fixed;
-    z-index:100;
-}
-
-.skrollr-mobile .skrollable {
-    position:absolute;
-}
-
-.skrollable .skrollable {
-    position:absolute;
-}
-
-.skrollable .skrollable .skrollable {
-    position:static;
 }

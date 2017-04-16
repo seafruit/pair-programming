@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="style/index.css"/>
-    <title>ThoughtWorks Pair Programming</title>
-    <link rel="stylesheet" href="style/index.css"/>
+    <link rel="stylesheet" media="screen and (max-width:440px)" href="style/mobile.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (min-width:1600px)" href="style/PC.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="style/shake.css">
+    <link rel="stylesheet" type="text/css" href="style/fixed-positioning.css">
+    <title>ThoughtWorks Pair Programming</title>
 </head>
 <body>
+<div class="level1-level2-level3__back-ground"></div>
 <section>
     <div class="begin" data-start="top:0%" data-200="display:flex;justify-content: center;height:100%" data-300="top: -100%;">
         <div class="begin__header">
@@ -28,22 +31,36 @@
                 <img src="img/pear.png" alt="">
             </div>
             <div class="begin__sign-up">
-                <div class="begin__sign-up__button" data-200="top: 5%; right:37%;" data-250="right: 6%;position: absolute" data-251="position: fixed; top: 6%">
+                <div class="begin__sign-up__button" data-200="top: 5%; right:37%;"
+                     data-250="right: 6%;position: absolute" data-251="position: fixed; top: 6%">
                     <button>我要报名</button>
                 </div>
                 <img src="img/ground.png" alt="" class="begin__sign-up__ground">
             </div>
-            <div class="heavenly-body__left1" data-9="opacity: 0" data-10="top: 100%; opacity: 1" data-40="top: 10%;" data-120="display:block;" data-160="top: -100%;opacity: 0;"><img src="img/heavenly-body/left1.png" alt=""></div>
-            <div class="heavenly-body__right2" data-9="opacity: 0" data-10="top: 100%; opacity: 1" data-40="top: 0%;" data-120="display:block;" data-160="top: -100%;opacity: 0;"><img src="img/heavenly-body/right2.png" alt=""></div>
-            <div class="heavenly-body__left3" data-39="opacity: 0" data-40="top: 100%; opacity: 1" data-70="top: 31%;" data-160="display:block;" data-190="top: -100%;opacity: 0;"><img src="img/heavenly-body/left3.png" alt=""></div>
-            <div class="heavenly-body__right3" data-39="opacity: 0" data-40="top: 100%; opacity: 1" data-70="top: 33%;" data-160="display:block;" data-190="top: -100%;opacity: 0;"><img src="img/heavenly-body/right3.png" alt=""></div>
-            <div class="heavenly-body__left2" data-69="opacity: 0" data-70="top: 100%; opacity: 1" data-100="top: 44%;" data-190="display:block;" data-220="top: -100%;opacity: 0;"><img src="img/heavenly-body/left2.png" alt=""></div>
-            <div class="heavenly-body__right1" data-69="opacity: 0" data-70="top: 100%; opacity: 1" data-100="top: 42%;" data-190="display:block;" data-220="top: -100%;opacity: 0;"><img src="img/heavenly-body/right1.png" alt=""></div>
+            <div class="heavenly-body__left1" data-9="opacity: 0" data-10="top: 100%; opacity: 1" data-40="top: 10%;"
+                 data-120="display:block;" data-160="top: -100%;opacity: 0;"><img src="img/heavenly-body/left1.png"
+                                                                                  alt=""></div>
+            <div class="heavenly-body__right2" data-9="opacity: 0" data-10="top: 100%; opacity: 1" data-40="top: 0%;"
+                 data-120="display:block;" data-160="top: -100%;opacity: 0;"><img src="img/heavenly-body/right2.png"
+                                                                                  alt=""></div>
+            <div class="heavenly-body__left3" data-39="opacity: 0" data-40="top: 100%; opacity: 1" data-70="top: 31%;"
+                 data-160="display:block;" data-190="top: -100%;opacity: 0;"><img src="img/heavenly-body/left3.png"
+                                                                                  alt=""></div>
+            <div class="heavenly-body__right3" data-39="opacity: 0" data-40="top: 100%; opacity: 1" data-70="top: 33%;"
+                 data-160="display:block;" data-190="top: -100%;opacity: 0;"><img src="img/heavenly-body/right3.png"
+                                                                                  alt=""></div>
+            <div class="heavenly-body__left2" data-69="opacity: 0" data-70="top: 100%; opacity: 1" data-100="top: 44%;"
+                 data-190="display:block;" data-220="top: -100%;opacity: 0;"><img src="img/heavenly-body/left2.png"
+                                                                                  alt=""></div>
+            <div class="heavenly-body__right1" data-69="opacity: 0" data-70="top: 100%; opacity: 1" data-100="top: 42%;"
+                 data-190="display:block;" data-220="top: -100%;opacity: 0;"><img src="img/heavenly-body/right1.png"
+                                                                                  alt=""></div>
         </div>
     </div>
 </section>
 <section>
-    <div class="video" data-200="top:100%" data-300="top:0%" data-500="display:flex;justify-content: center;height:100%" data-600="top:-100%">
+    <div class="video" data-200="top:100%" data-300="top:0%" data-500="display:flex;justify-content: center;height:100%"
+         data-600="top:-100%">
         <div class="video__header">
             ThoughtWorks is more than coding
         </div>
@@ -51,15 +68,20 @@
             <img src="img/background-horizontal.png" alt="" class="level3__background-horizontal">
         </div>
         <div class="video__body">
-            <div class="video-frame__layer1" data-300="top:12%" data-350="top: 6%" data-450="display: block;" data-500="top: 0%"></div>
-            <div class="video-frame__layer2" data-300="top:32%" data-350="top: 16%" data-450="display: block;" data-500="top: 0%"></div>
-            <div class="video-frame__layer3" data-300="top:38%" data-350="top: 19%" data-450="display: block;" data-500="top: 0%"></div>
-            <div class="video-frame__layer4" data-300="top:48%" data-350="top: 24%" data-450="display: block;" data-500="top: 0%"></div>
+            <div class="video-frame__layer1" data-300="top:12%" data-350="top: 6%" data-450="display: block;"
+                 data-500="top: 0%"></div>
+            <div class="video-frame__layer2" data-300="top:32%" data-350="top: 16%" data-450="display: block;"
+                 data-500="top: 0%"></div>
+            <div class="video-frame__layer3" data-300="top:38%" data-350="top: 19%" data-450="display: block;"
+                 data-500="top: 0%"></div>
+            <div class="video-frame__layer4" data-300="top:48%" data-350="top: 24%" data-450="display: block;"
+                 data-500="top: 0%"></div>
         </div>
     </div>
 </section>
 <section>
-    <div class="level1" data-500="top:100%" data-600="top:0%;" data-800="display:flex;justify-content: center;height:100%" data-900="top:-100%; display:none">
+    <div class="level1" data-500="top:100%" data-600="top:0%;"
+         data-800="display:flex;justify-content: center;height:100%" data-900="top:-100%; display:none">
         <div class="level1__header">
             <img src="img/level1-header.png" alt="">
         </div>
@@ -124,12 +146,24 @@
             <img src="img/lights/light2.png" alt="" class="heavenly-body__light2">
             <img src="img/lights/light3.png" alt="" class="heavenly-body__light3">
             <img src="img/lights/light4.png" alt="" class="heavenly-body__light4">
-            <div class="heavenly-body__left1" data-909="opacity: 0" data-910="top: 140%; opacity: 1" data-940="top: 10%;" data-1030="display:block;" data-1060="top: -160%;opacity: 0"><img src="img/heavenly-body/left1.png" alt=""></div>
-            <div class="heavenly-body__right2" data-909="opacity: 0" data-910="top: 140%; opacity: 1" data-940="top: 0%;" data-1050="display:block;" data-1060="top: -150%;opacity: 0"><img src="img/heavenly-body/right2.png" alt=""></div>
-            <div class="heavenly-body__left3" data-939="opacity: 0" data-940="top: 140%; opacity:1" data-970="top: 31%;" data-1060="display:block;" data-1090="top: -181%;opacity: 0"><img src="img/heavenly-body/left3.png" alt=""></div>
-            <div class="heavenly-body__right3" data-939="opacity: 0" data-940="top: 140%; opacity:1" data-970="top: 33%;" data-1060="display:block;" data-1090="top: -183%;opacity: 0"><img src="img/heavenly-body/right3.png" alt=""></div>
-            <div class="heavenly-body__left2" data-969="opacity: 0" data-970="top: 140%; opacity:1" data-1000="top: 44%;" data-1090="display:block;" data-1120="top: -194%;opacity: 0"><img src="img/heavenly-body/left2.png" alt=""></div>
-            <div class="heavenly-body__right1" data-969="opacity: 0" data-970="top: 140%; opacity:1" data-1000="top: 42%;" data-1090="display:block;" data-1120="top: -194%;opacity: 0"><img src="img/heavenly-body/right1.png" alt=""></div>
+            <div class="heavenly-body__left1" data-909="opacity: 0" data-910="top: 140%; opacity: 1"
+                 data-940="top: 10%;" data-1030="display:block;" data-1060="top: -160%;opacity: 0"><img
+                    src="img/heavenly-body/left1.png" alt=""></div>
+            <div class="heavenly-body__right2" data-909="opacity: 0" data-910="top: 140%; opacity: 1"
+                 data-940="top: 0%;" data-1050="display:block;" data-1060="top: -150%;opacity: 0"><img
+                    src="img/heavenly-body/right2.png" alt=""></div>
+            <div class="heavenly-body__left3" data-939="opacity: 0" data-940="top: 140%; opacity:1" data-970="top: 31%;"
+                 data-1060="display:block;" data-1090="top: -181%;opacity: 0"><img src="img/heavenly-body/left3.png"
+                                                                                   alt=""></div>
+            <div class="heavenly-body__right3" data-939="opacity: 0" data-940="top: 140%; opacity:1"
+                 data-970="top: 33%;" data-1060="display:block;" data-1090="top: -183%;opacity: 0"><img
+                    src="img/heavenly-body/right3.png" alt=""></div>
+            <div class="heavenly-body__left2" data-969="opacity: 0" data-970="top: 140%; opacity:1"
+                 data-1000="top: 44%;" data-1090="display:block;" data-1120="top: -194%;opacity: 0"><img
+                    src="img/heavenly-body/left2.png" alt=""></div>
+            <div class="heavenly-body__right1" data-969="opacity: 0" data-970="top: 140%; opacity:1"
+                 data-1000="top: 42%;" data-1090="display:block;" data-1120="top: -194%;opacity: 0"><img
+                    src="img/heavenly-body/right1.png" alt=""></div>
         </div>
         <div class="level2__time">
             <span class="level2__number">4</span>
@@ -153,14 +187,12 @@
     </div>
 </section>
 <section>
-    <div class="level3" data-1100="top:100%;" data-1200="top:0%;" data-1400="display:flex; justify-content: center;height:100%" data-1500="top:-100%; display:none">
+    <div class="level3" data-1100="top:100%;" data-1300="top:0%;"
+         data-1400="display:flex; justify-content: center;height:100%" data-1500="top:-100%; display:none">
         <div class="level3__header">
             <img src="img/level3-header.png" alt="">
         </div>
         <div class="level3__body">
-            <div class="keep-width-element">
-                <img src="img/background-horizontal.png" alt="" class="level3__background-horizontal">
-            </div>
             <div class="level3__background">
                 <img src="img/background-horizontal.png" alt="" class="level3__background-horizontal">
                 <img src="img/background-vertical.png" alt="" class="level3__background-vertical">
@@ -199,107 +231,107 @@
     </div>
 </section>
 <section>
-    <div data-1400="top:100%;" data-1500="top:0%"  data-1700="display:flex;" data-1900="top:-150%">
-    <div class="activity">
-        <div class="activity-detail">
-            <div class="activity-detail__target">面向人群： 2018届&2019届，全日制本科or研究生</div>
-            <div class="activity-detail__process">
-                <div class="activity-detail__process--head">流程说明：</div>
-                <div class="activity-detail__process--level">
-                    <div class="num">第一关：</div>
-                    <div class="desciption">4月24日—5月12日，挑战快捷键；</div>
-                </div>
-                <div class="activity-detail__process--level">
-                    <div class="num">第二关：</div>
-                    <div class="desciption">
-                        4月24日—5月12日，挑战编程题；<br/>
-                        5月18日，Pair—Programing Coding直播（具体直播地址及时间将邮件短信通知）
+    <div data-1400="top:100%;" data-1500="top:0%" data-1700="display:flex;" data-1900="top:-150%">
+        <div class="activity">
+            <div class="activity-detail">
+                <div class="activity-detail__target">面向人群： 2018届&2019届，全日制本科or研究生</div>
+                <div class="activity-detail__process">
+                    <div class="activity-detail__process--head">流程说明：</div>
+                    <div class="activity-detail__process--level">
+                        <div class="num">第一关：</div>
+                        <div class="desciption">4月24日—5月12日，挑战快捷键；</div>
                     </div>
-                </div>
-                <div class="activity-detail__process--level">
-                    <div class="num">第三关：</div>
-                    <div class="desciption">5月26日—5月28日，结对编程马拉松（结合第一轮&第二轮评分、筛选）；</div>
-                </div>
-                <div class="activity-detail__process--end">每个城市前50位的同学将会前往ThoughtWorks四地办公室（北京、西安、成都、武汉）参与结对编程深入体验。
+                    <div class="activity-detail__process--level">
+                        <div class="num">第二关：</div>
+                        <div class="desciption">
+                            4月24日—5月12日，挑战编程题；<br/>
+                            5月18日，Pair—Programing Coding直播（具体直播地址及时间将邮件短信通知）
+                        </div>
+                    </div>
+                    <div class="activity-detail__process--level">
+                        <div class="num">第三关：</div>
+                        <div class="desciption">5月26日—5月28日，结对编程马拉松（结合第一轮&第二轮评分、筛选）；</div>
+                    </div>
+                    <div class="activity-detail__process--end">每个城市前50位的同学将会前往ThoughtWorks四地办公室（北京、西安、成都、武汉）参与结对编程深入体验。
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="awards" id="easing">
-        <div class="awards__header">
-            体验结对编程乐趣的同时，更有可能获得超值大奖
+        <div class="awards" id="easing">
+            <div class="awards__header">
+                体验结对编程乐趣的同时，更有可能获得超值大奖
+            </div>
+            <div>
+                <img src="./img/award.png" alt="奖品">
+            </div>
         </div>
-        <div>
-            <img src="./img/award.png" alt="奖品">
+        <div class="coaches">
+            <div class="coaches__left-arrow" onclick="prevArrow(true)"> <</div>
+            <div class="coaches__photos">
+                <img src="img/photo/anfeng-yao.png" alt="" class="img--show">
+                <img src="img/photo/bin-wu.png" alt="" class="img--show">
+                <img src="img/photo/bingyu-lin.png" alt="" class="img--show">
+                <img src="img/photo/chongxiao-zhang.png" alt="" class="img--show">
+                <img src="img/photo/danni-yu.png" alt="" class="img--show">
+                <img src="img/photo/hao-xu.png" alt="" class="img--hide">
+                <img src="img/photo/jie-xiong.png" alt="" class="img--hide">
+                <img src="img/photo/Jim-Highsmith.png" alt="" class="img--hide">
+                <img src="img/photo/jingxian-zhuo.png" alt="" class="img--hide">
+                <img src="img/photo/linye-wu.png" alt="" class="img--hide">
+                <img src="img/photo/Martin-Fowler.png" alt="" class="img--hide">
+                <img src="img/photo/Mike-Mason.png" alt="" class="img--hide">
+                <img src="img/photo/Neal-Ford.png" alt="" class="img--hide">
+                <img src="img/photo/ni-wang.png" alt="" class="img--hide">
+                <img src="img/photo/Ola-Bini-Copy.png" alt="" class="img--hide">
+                <img src="img/photo/qihui-qin.png" alt="" class="img--hide">
+                <img src="img/photo/ran-xiao.png" alt="" class="img--hide">
+                <img src="img/photo/Rebecca-Parsons.png" alt="" class="img--hide">
+                <img src="img/photo/rujia-wang.png" alt="" class="img--hide">
+                <img src="img/photo/yun-yang.png" alt="" class="img--hide">
+            </div>
+            <div class="coaches__right-arrow" onclick="nextArrow(true)"> ></div>
         </div>
-    </div>
-    <div class="coaches">
-        <div class="coaches__left-arrow" onclick="prevArrow(true)"> <</div>
-        <div class="coaches__photos">
-            <img src="img/photo/anfeng-yao.png" alt="" class="img--show">
-            <img src="img/photo/bin-wu.png" alt="" class="img--show">
-            <img src="img/photo/bingyu-lin.png" alt="" class="img--show">
-            <img src="img/photo/chongxiao-zhang.png" alt="" class="img--show">
-            <img src="img/photo/danni-yu.png" alt="" class="img--show">
-            <img src="img/photo/hao-xu.png" alt="" class="img--hide">
-            <img src="img/photo/jie-xiong.png" alt="" class="img--hide">
-            <img src="img/photo/Jim-Highsmith.png" alt="" class="img--hide">
-            <img src="img/photo/jingxian-zhuo.png" alt="" class="img--hide">
-            <img src="img/photo/linye-wu.png" alt="" class="img--hide">
-            <img src="img/photo/Martin-Fowler.png" alt="" class="img--hide">
-            <img src="img/photo/Mike-Mason.png" alt="" class="img--hide">
-            <img src="img/photo/Neal-Ford.png" alt="" class="img--hide">
-            <img src="img/photo/ni-wang.png" alt="" class="img--hide">
-            <img src="img/photo/Ola-Bini-Copy.png" alt="" class="img--hide">
-            <img src="img/photo/qihui-qin.png" alt="" class="img--hide">
-            <img src="img/photo/ran-xiao.png" alt="" class="img--hide">
-            <img src="img/photo/Rebecca-Parsons.png" alt="" class="img--hide">
-            <img src="img/photo/rujia-wang.png" alt="" class="img--hide">
-            <img src="img/photo/yun-yang.png" alt="" class="img--hide">
+        <div class="books">
+            <div class="books__left-arrow" onClick="prevArrow(false)"> <</div>
+            <div class="books__covers">
+                <img src="img/books/TW.jpg" alt="" class="book--show">
+                <img src="img/books/bad-code.jpg" alt="" class="book--show">
+                <img src="img/books/building-microservice.jpg" alt="" class="book--show">
+                <img src="img/books/effective-js.jpg" alt="" class="book--show">
+                <img src="img/books/TW2.jpg" alt="" class="book--hide">
+                <img src="img/books/js-core.jpg" alt="" class="book--hide">
+                <img src="img/books/mobile-22.jpg" alt="" class="book--hide">
+                <img src="img/books/refactoring.jpg" alt="" class="book--hide">
+            </div>
+            <div class="books__right-arrow" onClick="nextArrow(false)"> ></div>
         </div>
-        <div class="coaches__right-arrow" onclick="nextArrow(true)"> ></div>
-    </div>
-    <div class="books" >
-        <div class="books__left-arrow" onClick="prevArrow(false)"> <</div>
-        <div class="books__covers">
-            <img src="img/books/TW.jpg" alt="" class="book--show">
-            <img src="img/books/bad-code.jpg" alt="" class="book--show">
-            <img src="img/books/building-microservice.jpg" alt="" class="book--show">
-            <img src="img/books/effective-js.jpg" alt="" class="book--show">
-            <img src="img/books/TW2.jpg" alt="" class="book--hide">
-            <img src="img/books/js-core.jpg" alt="" class="book--hide">
-            <img src="img/books/mobile-22.jpg" alt="" class="book--hide">
-            <img src="img/books/refactoring.jpg" alt="" class="book--hide">
-        </div>
-        <div class="books__right-arrow" onClick="nextArrow(false)"> ></div>
-    </div>
-    <div class="about-us">
-        <div class="about-us__content">
-            <div class="about-us__tw">
-                <div class="about-us__tw__title">
-                    <span>关于</span>
-                    <img src="img/tw-logo.png" alt="" class="thought-works-logo">
-                </div>
-                <div class="about-us__tw__detail">
+        <div class="about-us">
+            <div class="about-us__content">
+                <div class="about-us__tw">
+                    <div class="about-us__tw__title">
+                        <span>关于</span>
+                        <img src="img/tw-logo.png" alt="" class="thought-works-logo">
+                    </div>
+                    <div class="about-us__tw__detail">
             <span>
                 ThoughtWorks是一家全球信息技术服务公司，在美国、英国、澳大利亚、德国、新加坡、印度、巴西、南非、中国、厄尔瓜多、土耳其等十几个国家中，她成为超过4000技术牛人的实践乐园。
             </span>
                 <span>
                 ThoughtWorks进入中国十年，分别在北京、上海、深圳、西安、成都和武汉成立了分公司，有接近1000名员工通过全局资源共享和人才交流，服务全球各行各业的顶尖客户。
             </span>
+                    </div>
+                </div>
+                <div class="about-us__code">
+                    <span class="about-us__interactive">与我们互动</span>
+                    <img src="" alt="" class="QR-Code">
                 </div>
             </div>
-            <div class="about-us__code">
-                <span class="about-us__interactive">与我们互动</span>
-                <img src="" alt="" class="QR-Code">
-            </div>
+            <img src="img/background-bottom.png" alt="" class="background-bottom">
         </div>
-        <img src="img/background-bottom.png" alt="" class="background-bottom">
-    </div>
     </div>
 </section>
 
-<div class="begin__sign-up__button" data-250 = "opacity: 0" data-251="display: fixed; top: 6%; right: 6%; opacity: 1">
+<div class="begin__sign-up__button" data-250="opacity: 0" data-251="display: fixed; top: 6%; right: 6%; opacity: 1">
     <button>我要报名</button>
 </div>
 
