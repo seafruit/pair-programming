@@ -106,16 +106,30 @@ div, .begin, .video, .level1, .level2, .level3, .activity, .awards {
 
 .begin__pear {
     width: 15%;
-    padding: 1rem 0;
+    padding-top: 1rem;
 }
 
-.begin__button {
+.begin__sign-up {
+    position: relative;
+    width: 100%;
+}
+.begin__sign-up__ground {
+    width: 100%;
+}
+
+.begin__sign-up__button {
     border: none;
     border-radius: 0.2rem;
     background: #f8e952;
-    width: 30%;
+    width: 26%;
+    max-width: 28rem;
     font-size: 0.5rem;
     padding: 0.5rem 0;
+}
+
+.begin__sign-up__button button {
+    border: none;
+    background: #f8e952;
 }
 
 .video {
