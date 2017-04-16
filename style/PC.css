@@ -15,3 +15,28 @@ html {
     position: absolute;
     top: 2450px
 }
+
+.about-us__tw__title {
+    padding: 1rem 0;
+    width: 100%;
+}
+.about-us__tw {
+    flex: 0 0 63%;
+}
+
+.about-us__code {
+    flex: 0 0 30%;
+    align-items: flex-end;
+}
+
+.about-us__QR-Code {
+    width: 50%;
+}
+
+.thought-works-logo {
+    width: 40%;
+}
+
+.about-us__interactive {
+    padding-right: 2.5rem;
+}
