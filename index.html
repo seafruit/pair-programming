@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="style/index.css"/>
-    <link rel="stylesheet" media="screen and (max-width:440px)" href="style/mobile.css" type="text/css" />
-    <link rel="stylesheet" media="screen and (min-width:1600px)" href="style/PC.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width:440px)" href="style/mobile.css" type="text/css"/>
+    <link rel="stylesheet" media="screen and (min-width:1600px)" href="style/PC.css" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="style/shake.css">
     <link rel="stylesheet" type="text/css" href="style/fixed-positioning.css">
     <title>ThoughtWorks Pair Programming</title>
@@ -13,7 +13,8 @@
 <body>
 <div class="level1-level2-level3__back-ground"></div>
 <section>
-    <div class="begin" data-start="top:0%" data-200="display:flex;justify-content: center;height:100%" data-300="top: -100%;">
+    <div class="begin" data-start="top:0%" data-200="display:flex;justify-content: center;height:100%"
+         data-300="top: -100%;">
         <div class="begin__header">
             最佳编程体验之旅 SEASON 2
         </div>
@@ -121,7 +122,8 @@
     </div>
 </section>
 <section>
-    <div class="level2" data-800="top:100%;" data-900="top:0%;" data-1120="display:flex;justify-content: center;height:100%;" data-1200="top:-100%; display: none;">
+    <div class="level2" data-800="top:100%;" data-900="top:0%;"
+         data-1120="display:flex;justify-content: center;height:100%;" data-1200="top:-100%; display: none;">
         <div class="level2__header">
             <img src="img/level2-header.png" alt="">
         </div>
@@ -180,7 +182,7 @@
             仔细阅读题干，根据要求提交代码作业</br>
             我们会根据第一关&第二关的综合情况来评估进入最后一轮闯关的同学，开始你的结对</br>
             编程体验之旅。</br>
-        <span class="level2__description__note">
+            <span class="level2__description__note">
                     挑战结束，将会看到ThoughtWorks技术大牛运用结对编程完成题目哦～
                 </span>
         </div>
@@ -224,7 +226,7 @@
         <div class="level3__description">
             北京、西安、成都、武汉，ThoughtWorks与你相约！</br>
             3天亲密接触 Pair-Programming， 一边写代码，一边学编程。</br>
-        <span class="level3__description__note">
+            <span class="level3__description__note">
             更有ThoughtWorks大牛的现场指导，让你轻松get结对编程！
         </span>
         </div>
@@ -316,7 +318,7 @@
             <span>
                 ThoughtWorks是一家全球信息技术服务公司，在美国、英国、澳大利亚、德国、新加坡、印度、巴西、南非、中国、厄尔瓜多、土耳其等十几个国家中，她成为超过4000技术牛人的实践乐园。
             </span>
-                <span>
+                        <span>
                 ThoughtWorks进入中国十年，分别在北京、上海、深圳、西安、成都和武汉成立了分公司，有接近1000名员工通过全局资源共享和人才交流，服务全球各行各业的顶尖客户。
             </span>
                     </div>
@@ -336,6 +338,8 @@
 </div>
 
 <script data-main="script/activity-main.js" src="script/activity-require.js"></script>
+<!--<script type="text/javascript" src="./script/activity-require.js"></script>-->
+<!--<script type="text/javascript" src="./dist/skrollr.min.js"></script>-->
 
 <script type="text/javascript">
     var coachActiveTurnIndex = 0;
@@ -384,6 +388,27 @@
             }
         }
     }
+    function getQueryString(name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) {
+            return unescape(r[2]);
+        }
+        return null;
+    }
+    function setCookie() {
+        var channel = getQueryString('channel');
+        if (channel) {
+            document.cookie = 'channel=' + channel;
+        } else {
+            document.cookie = 'channel=' + '';
+        }
+        var program = getQueryString('program');
+        if (program) {
+            document.cookie = `program=` + program;
+        }
+    }
+    setCookie();
 </script>
 </body>
 </html>
