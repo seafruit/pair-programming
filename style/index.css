@@ -13,7 +13,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     flex-direction: column;
 }
 
-.begin, .video, .level1, .level2, .level3, .about-us {
+.begin, .video, .level1, .level2, .level3, .activity-and-award, .last-part-do-not-parallax, .about-us {
     width: 100%;
 }
 
@@ -390,7 +390,9 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
+
 .activity {
+    position: relative;
     padding: 3rem 0;
     width: 100%;
 }
@@ -408,7 +410,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .activity-detail__target {
-    font-size:.9rem;
+    font-size: .9rem;
 }
 
 .activity-detail__process {
@@ -448,6 +450,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 
 /*---------------------------------------------awards-start-----------------------------------------------*/
 .awards {
+    position: relative;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 2rem;

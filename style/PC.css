@@ -13,13 +13,14 @@ html {
 
 .last-part-do-not-parallax {
     position: absolute;
-    top: 2450px
+    top: 3000px;
 }
 
 .about-us__tw__title {
     padding: 1rem 0;
     width: 100%;
 }
+
 .about-us__tw {
     flex: 0 0 63%;
 }
