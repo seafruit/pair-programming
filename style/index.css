@@ -82,7 +82,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 
 .begin__pear {
     width: 15%;
-    padding-top: 1rem;
+    padding: 1rem 0;
 }
 
 .begin__sign-up {
@@ -102,6 +102,8 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     max-width: 28rem;
     font-size: 0.5rem;
     padding: 0.5rem 0;
+    top: 5%;
+    right: 37%
 }
 
 .begin__sign-up__button button {
