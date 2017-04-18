@@ -165,10 +165,9 @@
 .level1__background-red3--position {
     position: absolute;
     width: 100%;
-    height: 100%;
-    transform: rotate(165deg);
-    left: -31%;
-    top: -31%;
+    transform: rotate(167deg);
+    left: -72%;
+    top: 82%;
 }
 
 .level1__background-red4 {
@@ -189,10 +188,9 @@
 .level1__background-red4--position {
     position: absolute;
     width: 100%;
-    height: 100%;
-    transform: rotate(220deg);
-    top: -108%;
-    left: -18%;
+    transform: rotate(212deg);
+    top: -76%;
+    left: -64%;
 }
 
 .level1__background-orange3 {
@@ -213,10 +211,9 @@
 .level1__background-orange3--position {
     position: absolute;
     width: 100%;
-    height: 100%;
-    transform: rotate(-121deg);
-    top: -85%;
-    left: 3%;
+    transform: rotate(-134deg);
+    top: -114%;
+    left: -57%;
 }
 
 .light-relative-position {
