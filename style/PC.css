@@ -2,7 +2,15 @@ html {
     font-size: 25px;
 }
 
-.level2__body, .level3__body {
+.level1-level2-level3__back-ground {
+    height: 850%;
+}
+
+.banner {
+    height: 6%;
+}
+
+.level2__body, .level3__body, .begin__body {
     width: 70%;
 }
 

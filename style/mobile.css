@@ -2,6 +2,18 @@ html {
     font-size: 16px;
 }
 
+.level1-level2-level3__back-ground {
+    height: 900%;
+}
+
+.banner {
+    height: 4%;
+}
+
+.begin__body {
+    width: 100%;
+}
+
 .foot__entry-point {
     width: 100%;
     justify-content: space-between;
