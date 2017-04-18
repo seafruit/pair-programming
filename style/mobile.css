@@ -11,6 +11,10 @@ html {
     width: 70%;
 }
 
+.video__body__watch-video {
+    padding: 1.5rem;
+}
+
 .level2__body__floor-light {
     width: 43%;
 }

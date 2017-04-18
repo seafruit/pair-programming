@@ -8,8 +8,12 @@ img {
     max-width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
+    color: gray;
+}
+
+button a {
     color: #1c1c1c;
 }
 
@@ -132,6 +136,20 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     padding-bottom: 40%;
     width: 70%;
     border: 1px solid #f8e952;
+}
+
+.video__body__background {
+    position: relative;
+    justify-content: center;
+}
+
+.video__body__watch-video {
+    width: 70%;
+}
+
+.video__body__watch-video-cn {
+    position: absolute;
+    width: 40%;
 }
 
 .video-frame__layer1 {
