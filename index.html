@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="style/index.css"/>
-    <link rel="stylesheet" media="screen and (max-width:440px)" href="style/mobile.css" type="text/css"/>
-    <link rel="stylesheet" media="screen and (min-width:1600px)" href="style/PC.css" type="text/css"/>
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="style/mobile.css" type="text/css"/>
+    <link rel="stylesheet" media="screen and (min-width:800px)" href="style/PC.css" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="style/shake.css">
     <link rel="stylesheet" type="text/css" href="style/fixed-positioning.css">
     <link rel="stylesheet" type="text/css" href="style/level1-light-animation.css">
     <title>ThoughtWorks Pair Programming</title>
 </head>
 <body>
-<div class="banner">
+<div class="banner"
+     data-start="top:0%">
     <div class="banner__logo">
         <img src="img/tw-logo.png" alt="">
     </div>
-    <div class="fixed__sign-up__button"
-         data-1600="opacity: 0;"
-         data-1800="display: fixed; top: 0%; right: 6%; opacity: 1">
-        <button><a href="https://school.thoughtworks.cn/learn-demo/register.html#register">我要报名</a></button>
+    <div class="banner__button">
+        <div class="fixed__sign-up__button"
+             data-1600="opacity: 0;"
+             data-1800="display: fixed; top: 0%; right: 6%; opacity: 1">
+            <button><a href="https://school.thoughtworks.cn/learn-demo/register.html#register">我要报名</a></button>
+        </div>
     </div>
 </div>
 <div class="level1-level2-level3__back-ground"></div>
@@ -237,18 +240,23 @@
             <div class="keep-width-element">
                 <img src="img/background-horizontal.png" alt="" class="level3__background-horizontal">
             </div>
-            <div class="level2__body__floor-back-ground">
-                <img src="img/floor.png" alt="" class="level2__body__floor">
-                <img src="img/floor.png" alt="" class="level2__body__floor">
+            <div>
+                <div class="level2__body__floor-back-ground">
+                    <img src="img/floor.png" alt="" class="level2__body__floor">
+                    <img src="img/floor.png" alt="" class="level2__body__floor">
+                    <img src="img/floor-light.png" alt="" class="level2__body__floor-light">
+                </div>
             </div>
-            <img src="img/floor-light.png" alt="" class="level2__body__floor-light">
-            <div class="level2__body__mac">
-                <img src="img/mac.png" alt="">
-                <img src="img/pear/hand.png" alt="" class="level2__body__hand">
-                <img src="img/pear/body.png" alt="" class="level2__body__pear">
-                <img src="img/pear/white-of-eye.png" alt="" class="level2__body__pear-eye-white">
-                <img src="img/pear/eyeball.png" alt="" class="level2__body__pear-eye-ball shake-little shake-constant">
-                <img src="img/pear/mouth.png" alt="" class="level2__body__pear-mouth">
+            <div>
+                <div class="level2__body__mac">
+                    <img src="img/mac.png" alt="">
+                    <img src="img/pear/hand.png" alt="" class="level2__body__hand">
+                    <img src="img/pear/body.png" alt="" class="level2__body__pear">
+                    <img src="img/pear/white-of-eye.png" alt="" class="level2__body__pear-eye-white">
+                    <img src="img/pear/eyeball.png" alt=""
+                         class="level2__body__pear-eye-ball shake-little shake-constant">
+                    <img src="img/pear/mouth.png" alt="" class="level2__body__pear-mouth">
+                </div>
             </div>
             <img src="img/lights/light1.png" alt="" class="heavenly-body__light1">
             <img src="img/lights/light2.png" alt="" class="heavenly-body__light2">
@@ -379,25 +387,27 @@
          data-7400="top:-100%; display: none">
         <div class="activity">
             <div class="activity-detail">
-                <div class="activity-detail__target">面向人群： 2018届&2019届，全日制本科or研究生</div>
-                <div class="activity-detail__process">
-                    <div class="activity-detail__process--head">流程说明：</div>
-                    <div class="activity-detail__process--level">
-                        <div class="num">第一关：</div>
-                        <div class="desciption">4月24日—5月12日，挑战快捷键；</div>
-                    </div>
-                    <div class="activity-detail__process--level">
-                        <div class="num">第二关：</div>
-                        <div class="desciption">
-                            4月24日—5月12日，挑战编程题；<br/>
-                            5月18日，Pair—Programing Coding直播（具体直播地址及时间将邮件短信通知）
+                <div class="activity-detail-content">
+                    <div class="activity-detail__target">面向人群： 2018届&2019届，全日制本科or研究生</div>
+                    <div class="activity-detail__process">
+                        <div class="activity-detail__process--head">流程说明：</div>
+                        <div class="activity-detail__process--level">
+                            <div class="num">第一关：</div>
+                            <div class="desciption">4月24日—5月12日，挑战快捷键；</div>
                         </div>
-                    </div>
-                    <div class="activity-detail__process--level">
-                        <div class="num">第三关：</div>
-                        <div class="desciption">5月26日—5月28日，结对编程马拉松（结合第一轮&第二轮评分、筛选）；</div>
-                    </div>
-                    <div class="activity-detail__process--end">每个城市前50位的同学将会前往ThoughtWorks四地办公室（北京、西安、成都、武汉）参与结对编程深入体验。
+                        <div class="activity-detail__process--level">
+                            <div class="num">第二关：</div>
+                            <div class="desciption">
+                                4月24日—5月12日，挑战编程题；<br/>
+                                5月18日，Pair—Programing Coding直播（具体直播地址及时间将邮件短信通知）
+                            </div>
+                        </div>
+                        <div class="activity-detail__process--level">
+                            <div class="num">第三关：</div>
+                            <div class="desciption">5月26日—5月28日，结对编程马拉松（结合第一轮&第二轮评分、筛选）；</div>
+                        </div>
+                        <div class="activity-detail__process--end">每个城市前50位的同学将会前往ThoughtWorks四地办公室（北京、西安、成都、武汉）参与结对编程深入体验。
+                        </div>
                     </div>
                 </div>
             </div>
@@ -406,7 +416,7 @@
             <div class="awards__header">
                 体验结对编程乐趣的同时，更有可能获得超值大奖
             </div>
-            <div>
+            <div class="awards__img">
                 <img src="./img/award.png" alt="奖品">
             </div>
         </div>
@@ -462,13 +472,10 @@
                         <img src="img/tw-logo.png" alt="" class="thought-works-logo">
                     </div>
                     <div class="about-us__tw__detail">
-                        <span>
-                            ThoughtWorks是一家全球信息技术服务公司，在美国、英国、澳大利亚、德国、新加坡、印度、巴西、南非、中国、厄尔瓜多、土耳其等十几个国家中，她成为超过4000技术牛人的实践乐园。
-                        </span>
-                        </br>
-                        <span>
-                            ThoughtWorks进入中国十年，分别在北京、上海、深圳、西安、成都和武汉成立了分公司，有接近1000名员工通过全局资源共享和人才交流，服务全球各行各业的顶尖客户。
-                        </span>
+                        ThoughtWorks是一家全球信息技术服务公司，在美国、英国、澳大利亚、德国、新加坡、印度、巴西、南非、中国、厄尔瓜多、土耳其等十几个国家中，她成为超过4000技术牛人的实践乐园。
+                    </div>
+                    <div class="about-us__tw__detail">
+                        ThoughtWorks进入中国十年，分别在北京、上海、深圳、西安、成都和武汉成立了分公司，有接近1000名员工通过全局资源共享和人才交流，服务全球各行各业的顶尖客户。
                     </div>
                 </div>
                 <div class="about-us__code">

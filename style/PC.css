@@ -1,17 +1,5 @@
 html {
-    font-size: 52px;
-}
-
-.banner {
-    padding: 0.25rem 0;
-}
-
-.banner__logo img {
-    width: 18%;
-}
-
-.video__body__watch-video {
-    padding: 3rem;
+    font-size: 25px;
 }
 
 .level2__body, .level3__body {
@@ -19,7 +7,11 @@ html {
 }
 
 .level2__body__floor-light {
-    width: 40%;
+    width: 42%;
+}
+
+.awards__img {
+    width: 70%
 }
 
 .foot__entry-point {

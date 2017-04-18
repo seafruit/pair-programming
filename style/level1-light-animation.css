@@ -25,11 +25,11 @@
 }
 
 .level1__background-red1--position {
+    transform: rotate(-67deg);
     position: absolute;
     width: 100%;
-    top: -48%;
-    transform: rotate(-67deg);
-    left: 16%;
+    top: -108%;
+    left: 29%;
 }
 
 .level1__background-orange1 {
@@ -50,9 +50,9 @@
 .level1__background-orange1--position {
     position: absolute;
     width: 100%;
-    top: 3%;
+    top: -79%;
     transform: rotate(-50deg);
-    left: 15%;
+    left: 44%;
 }
 
 .level1__background-orangered1 {
@@ -73,10 +73,9 @@
 .level1__background-orangered1--position {
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 85%;
-    transform: rotate(37deg);
-    left: 13%;
+    top: 167%;
+    transform: rotate(38deg);
+    left: 57%;
 }
 
 .level1__background-red2 {
@@ -97,10 +96,9 @@
 .level1__background-red2--position {
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 71%;
+    top: 194%;
     transform: rotate(51deg);
-    left: -3%;
+    left: 45%;
 }
 
 .level1__background-orange2 {
@@ -121,10 +119,9 @@
 .level1__background-orange2--position {
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 24%;
-    transform: rotate(116deg);
-    left: -25%;
+    top: 207%;
+    transform: rotate(120deg);
+    left: -30%;
 }
 
 .level1__background-orangered2 {
@@ -145,10 +142,9 @@
 .level1__background-orangered2--position {
     position: absolute;
     width: 100%;
-    height: 100%;
-    transform: rotate(133deg);
-    left: -38%;
-    top: 32%;
+    transform: rotate(136deg);
+    left: -51%;
+    top: 187%;
 }
 
 .level1__background-red3 {
@@ -224,7 +220,7 @@
 }
 
 .light-relative-position {
-    width: 100%;
+    width: 70%;
     height: 100%;
     position: relative;
 }
