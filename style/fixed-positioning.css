@@ -1,6 +1,6 @@
 .skrollable {
     position:fixed;
-    z-index:100;
+    z-index:5;
 }
 
 .skrollr-mobile .skrollable {

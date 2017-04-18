@@ -23,6 +23,22 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     flex-direction: column;
 }
 
+.banner {
+    border-radius: 0.2rem;
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+    z-index: 6;
+    top: 0%;
+    left: 0%;
+}
+
+.banner__logo {
+    position: relative;
+    width: 88%;
+    align-items: flex-start;
+}
+
 .begin, .video, .level1, .level2, .level3, .activity-and-award, .last-part-do-not-parallax {
     width: 100%;
 }
@@ -35,7 +51,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .begin__header {
-    padding: 1rem 0;
+    padding-top: 2rem;
     font-size: 0.5rem;
 }
 
@@ -91,7 +107,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 
 .begin__pear {
     width: 15%;
-    padding: 1rem 0;
 }
 
 .begin__sign-up {
@@ -103,7 +118,27 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     width: 100%;
 }
 
+.fixed__sign-up__button {
+    position: absolute;
+    border: none;
+    border-radius: 0.2rem;
+    background: #f8e952;
+    width: 18%;
+    max-width: 28rem;
+    font-size: 0.5rem;
+    padding: 0.4rem 0;
+    top: 5%;
+    right: 37%
+}
+
+.fixed__sign-up__button button {
+    border: none;
+    background: #f8e952;
+    font-size: 0.5rem;
+}
+
 .begin__sign-up__button {
+    position: absolute;
     border: none;
     border-radius: 0.2rem;
     background: #f8e952;
@@ -195,8 +230,9 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .level1__header, .level2__header, .level3__header {
-    padding: 1rem 0;
-    width: 40%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 30%;
 }
 
 .level1__header {
@@ -257,7 +293,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     position: absolute;
     top: 0%;
     width: 100%;
-    height: 300%;
+    height: 680%;
 }
 
 .level2__body__floor-back-ground :nth-child(1) {

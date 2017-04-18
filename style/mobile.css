@@ -2,6 +2,14 @@ html {
     font-size: 16px;
 }
 
+.banner {
+    padding: 0.5rem 0;
+}
+
+.banner__logo img {
+    width: 22%;
+}
+
 .foot__entry-point {
     width: 100%;
     justify-content: space-between;
