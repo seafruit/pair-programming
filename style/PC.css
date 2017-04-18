@@ -6,6 +6,10 @@ html {
     width: 70%;
 }
 
+.level2__body__floor-light {
+    width: 40%;
+}
+
 .foot__entry-point {
     width: 50%;
     justify-content: space-between;
@@ -13,7 +17,7 @@ html {
 
 .last-part-do-not-parallax {
     position: absolute;
-    top: 3000px;
+    top: 5000px;
 }
 
 .about-us__tw__title {
@@ -22,12 +26,11 @@ html {
 }
 
 .about-us__tw {
-    flex: 0 0 63%;
+    flex: 1 0 63%;
 }
 
 .about-us__code {
-    flex: 0 0 30%;
-    align-items: flex-end;
+    flex: 1 0 30%;
 }
 
 .about-us__QR-Code {
@@ -38,6 +41,56 @@ html {
     width: 40%;
 }
 
+.activity {
+    padding: 1rem 0;
+}
+
+.activity-detail {
+    font-size: .5rem;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    width: 70%;
+}
+
+.activity-detail__target {
+    font-size: .5rem;
+}
+
+.activity-detail__process {
+    padding-top: 1rem;
+    line-height: 1rem;
+}
+
+.activity-detail__process--level {
+    padding-top: 0.5rem;
+}
+
+.activity-detail__process--end {
+    line-height: 1rem;
+    padding-top: 0.5rem;
+}
+
+.awards__header {
+    font-size: .5rem;
+    padding-bottom: 1rem;
+}
+
+.awards {
+    padding-bottom: 1rem;
+}
+
 .about-us__interactive {
     padding-right: 2.5rem;
+}
+
+.books, .coaches, .about-us, .foot {
+    width: 70%;
+}
+
+.coaches {
+    padding: 3rem 0;
+}
+
+.books {
+    padding-bottom: 3rem;
 }

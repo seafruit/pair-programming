@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="style/index.css"/>
     <link rel="stylesheet" media="screen and (max-width:440px)" href="style/mobile.css" type="text/css"/>
-    <link rel="stylesheet" media="screen and (min-width:1600px)" href="style/PC.css" type="text/css"/>
+    <link rel="stylesheet" media="screen and (min-width:440px)" href="style/PC.css" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="style/shake.css">
     <link rel="stylesheet" type="text/css" href="style/fixed-positioning.css">
     <link rel="stylesheet" type="text/css" href="style/level1-light-animation.css">
@@ -16,7 +16,7 @@
 <section>
     <div class="begin" data-start="top:0%" data-200="display:flex;justify-content: center;height:100%"
          data-400="justify-content:center;"
-         data-500="top: -100%;">
+         data-500="top: -100%; display: none">
         <div class="begin__header">
             最佳编程体验之旅 SEASON 2
         </div>
@@ -64,7 +64,7 @@
 <section>
     <div class="video" data-500="top:100%" data-600="top:0%" data-800="display:flex;justify-content: center;height:100%"
          data-1100="justify-content: center;"
-         data-1200="top:-100%">
+         data-1200="top:-110% display: none">
         <div class="video__header">
             ThoughtWorks is more than coding
         </div>
@@ -90,12 +90,13 @@
 <section>
     <div class="level1" data-1200="top:100%" data-1300="top:0%;"
          data-1500="display:flex;justify-content: center;height:100%" data-1700="justify-content: center;"
-         data-1900="top:-100%;">
+         data-1900="top:-100%; display: none">
         <div class="level1__header">
             <img src="img/level1-header.png" alt="">
         </div>
         <div class="level1__body">
-            <div class="level1__background">
+            <div class="level1__background" data-1500="opacity: 0;"
+                 data-1600="opacity: 1;" data-1700="opacity: 0;">
                 <div class="light-relative-position">
                     <div class="level1__background-red1--position">
                         <div class="level1__background-red1">
@@ -183,7 +184,7 @@
 <section>
     <div class="level2" data-1900="top:100%;" data-2000="top:0%;"
          data-2120="display:flex;justify-content: center;height:100%;" data-2300="justify-content: center;"
-         data-2500="top:-100%;">
+         data-2500="top:-100%; display: none">
         <div class="level2__header">
             <img src="img/level2-header.png" alt="">
         </div>
@@ -251,7 +252,7 @@
 <section>
     <div class="level3" data-2500="top:100%;" data-2700="top:0%;"
          data-2800="display:flex; justify-content: center;height:100%" data-3000="justify-content: center;"
-         data-3200="top:-100%;">
+         data-3200="top:-100%; display: none">
         <div class="level3__header">
             <img src="img/level3-header.png" alt="">
         </div>
@@ -296,7 +297,7 @@
 <section>
     <div class="activity-and-award" data-3200="top:100%;" data-3400="top:0%;"
          data-3600="display:flex; justify-content: center;height:100%" data-3800="justify-content: center;"
-         data-4000="top:-100%;">
+         data-4000="top:-100%; display: none">
         <div class="activity">
             <div class="activity-detail">
                 <div class="activity-detail__target">面向人群： 2018届&2019届，全日制本科or研究生</div>

@@ -1,6 +1,7 @@
 body {
     background-color: #1c1c1c;
     color: white;
+    font-family: sans-serif;
 }
 
 img {
@@ -13,7 +14,7 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     flex-direction: column;
 }
 
-.begin, .video, .level1, .level2, .level3, .activity-and-award, .last-part-do-not-parallax, .about-us {
+.begin, .video, .level1, .level2, .level3, .activity-and-award, .last-part-do-not-parallax {
     width: 100%;
 }
 
@@ -26,7 +27,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 
 .begin__header {
     padding: 1rem 0;
-    font-family: sans-serif;
     font-size: 0.5rem;
 }
 
@@ -117,7 +117,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 .video__header {
     font-size: 0.5rem;
     padding: 1rem;
-    font-family: sans-serif;
     text-transform: uppercase;
 }
 
@@ -205,7 +204,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 
 .level1__time, .level2__time, .level3__time {
     display: block;
-    font-family: sans-serif;
     font-size: 0.5rem;
     padding-top: 1rem;
 }
@@ -220,7 +218,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .level1__description, .level2__description, .level3__description {
-    font-family: sans-serif;
     text-align: center;
     font-size: 0.5rem;
 }
@@ -245,7 +242,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 .level2__body__floor-light {
     position: absolute;
     bottom: 0;
-    width: 43%;
     left: 44%;
 }
 
@@ -415,15 +411,11 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 
 .activity {
     position: relative;
-    padding: 3rem 0;
     width: 100%;
 }
 
 .activity-detail {
-    font-size: .8rem;
     background-color: #3C3C3C;
-    padding: 3rem 0;
-    width: 80%;
 }
 
 .activity-detail__target, .activity-detail__process {
@@ -432,13 +424,10 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .activity-detail__target {
-    font-size: .9rem;
 }
 
 .activity-detail__process {
     position: relative;
-    line-height: 1.2rem;
-    padding-top: 1.5rem;
     color: #E4F02A;
 }
 
@@ -466,30 +455,18 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     width: 75%;
     align-items: center;
     margin: 0 auto;
-    line-height: 1.2rem;
-    padding-top: 1rem;
 }
 
 /*---------------------------------------------awards-start-----------------------------------------------*/
 .awards {
     position: relative;
-    width: 80%;
     margin: 0 auto;
-    padding-bottom: 2rem;
     left: 0;
     right: 0;
 }
 
 .awards__header {
-    font-size: .8rem;
-    padding-bottom: 2rem;
-    line-height: 1.5rem;
     text-align: center;
-}
-
-.coaches {
-    width: 80%;
-    padding: 1rem 0;
 }
 
 .coaches__photos {
@@ -510,11 +487,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     display: none;
 }
 
-.books {
-    width: 80%;
-    padding: 3rem 0;
-}
-
 .books__covers {
     width: 90%;
     justify-content: space-around;
@@ -533,19 +505,10 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     display: none;
 }
 
-.about-us {
-    font-family: sans-serif;
-}
-
 .about-us__content {
-    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-.about-us__tw {
-    flex: 0 0 60%;
 }
 
 .about-us__tw__title {
@@ -558,7 +521,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 }
 
 .about-us__code {
-    flex: 0 0 40%;
     align-items: flex-end;
 }
 
@@ -573,7 +535,6 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
 
 .foot {
     align-items: flex-start;
-    width: 80%;
     color: gray;
     font-size: 0.5rem;
 }
