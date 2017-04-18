@@ -28,21 +28,21 @@ html {
 }
 
 .activity {
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 .activity-detail {
-    font-size: .8rem;
-    padding: 3rem 0;
+    font-size: .6rem;
+    padding: 1rem 0;
     width: 80%;
 }
 
 .activity-detail__target {
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 .activity-detail__process {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     line-height: 1.2rem;
 }
 
