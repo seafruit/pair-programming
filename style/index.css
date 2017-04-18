@@ -172,6 +172,10 @@ div, .begin, .video, .level1, .level2, .activity, .awards {
     width: 40%;
 }
 
+.level1__header {
+    z-index: 1;
+}
+
 .level1__keys {
     padding: 1rem 0;
 }

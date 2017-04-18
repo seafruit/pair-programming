@@ -12,24 +12,24 @@
 .level1__background-red1 {
     position: relative;
     height: 1px;
-    width: 30%;
+    width: 24%;
     background: linear-gradient(90deg, transparent 0%, red 0%, red 100%, transparent 100%);
 }
 
 .level1__background-red1--space {
-    animation: 4s light-space-animation linear infinite;
+    animation: 3s light-space-animation linear infinite;
     position: absolute;
     background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);
-    height: 1px;
-    width: 10px;
+    height: 3px;
+    width: 10%;
 }
 
 .level1__background-red1--position {
     position: absolute;
     width: 100%;
-    top: -57%;
+    top: -48%;
     transform: rotate(-67deg);
-    left: 18%;
+    left: 16%;
 }
 
 .level1__background-orange1 {
@@ -40,91 +40,91 @@
 }
 
 .level1__background-orange1--space {
-    animation: 3s light-space-animation linear infinite;
+    animation: 1s light-space-animation linear infinite;
     position: absolute;
     background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);
-    height: 2px;
-    width: 5px;
+    height: 4px;
+    width: 10%;
 }
 
 .level1__background-orange1--position {
     position: absolute;
     width: 100%;
-    top: -7%;
+    top: 3%;
     transform: rotate(-50deg);
-    left: 19%;
+    left: 15%;
 }
 
 .level1__background-orangered1 {
     position: relative;
     height: 3px;
-    width: 18%;
+    width: 16%;
     background: linear-gradient(90deg, transparent 0%, orangered 0%, orangered 100%, transparent 100%);
 }
 
 .level1__background-orangered1--space {
-    animation: 4s light-space-animation linear infinite;
+    animation: 2s light-space-animation linear infinite;
     position: absolute;
     background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);
-    height: 3px;
-    width: 5px;
+    height: 5px;
+    width: 10%;
 }
 
 .level1__background-orangered1--position {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 75%;
+    top: 85%;
     transform: rotate(37deg);
-    left: 17%;
+    left: 13%;
 }
 
 .level1__background-red2 {
     position: relative;
     height: 1px;
-    width: 14%;
+    width: 12%;
     background: linear-gradient(90deg, transparent 0%, red 0%, red 100%, transparent 100%);
 }
 
 .level1__background-red2--space {
-    animation: 4s light-space-animation linear infinite;
+    animation: 2s light-space-animation linear infinite;
     position: absolute;
     background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);
-    height: 1px;
-    width: 5px;
+    height: 3px;
+    width: 10%;
 }
 
 .level1__background-red2--position {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 76%;
+    top: 71%;
     transform: rotate(51deg);
-    left: 3%;
+    left: -3%;
 }
 
 .level1__background-orange2 {
     position: relative;
     height: 2px;
-    width: 10%;
+    width: 11%;
     background: linear-gradient(90deg, transparent 0%, orange 0%, orange 100%, transparent 100%);
 }
 
 .level1__background-orange2--space {
-    animation: 4s light-space-animation linear infinite;
+    animation: 2s light-space-animation linear infinite;
     position: absolute;
     background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);
-    height: 2px;
-    width: 5px;
+    height: 4px;
+    width: 8%;
 }
 
 .level1__background-orange2--position {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 45%;
-    transform: rotate(99deg);
-    left: -29%;
+    top: 24%;
+    transform: rotate(116deg);
+    left: -25%;
 }
 
 .level1__background-orangered2 {
@@ -135,20 +135,20 @@
 }
 
 .level1__background-orangered2--space {
-    animation: 4s light-space-animation linear infinite;
+    animation: 3s light-space-animation linear infinite;
     position: absolute;
     background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);
-    height: 3px;
-    width: 5px;
+    height: 5px;
+    width: 10%;
 }
 
 .level1__background-orangered2--position {
     position: absolute;
     width: 100%;
     height: 100%;
-    transform: rotate(126deg);
-    left: -48%;
-    top: 49%;
+    transform: rotate(133deg);
+    left: -38%;
+    top: 32%;
 }
 
 .level1__background-red3 {
@@ -159,20 +159,20 @@
 }
 
 .level1__background-red3--space {
-    animation: 4s light-space-animation linear infinite;
+    animation: 2s light-space-animation linear infinite;
     position: absolute;
     background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);
-    height: 1px;
-    width: 5px;
+    height: 3px;
+    width: 10%;
 }
 
 .level1__background-red3--position {
     position: absolute;
     width: 100%;
     height: 100%;
-    transform: rotate(160deg);
+    transform: rotate(165deg);
     left: -31%;
-    top: -36%;
+    top: -31%;
 }
 
 .level1__background-red4 {
@@ -186,8 +186,8 @@
     animation: 4s light-space-animation linear infinite;
     position: absolute;
     background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);
-    height: 1px;
-    width: 5px;
+    height: 3px;
+    width: 10%;
 }
 
 .level1__background-red4--position {
@@ -202,25 +202,25 @@
 .level1__background-orange3 {
     position: relative;
     height: 3px;
-    width: 16%;
+    width: 9%;
     background: linear-gradient(90deg, transparent 0%, orange 0%, orange 100%, transparent 100%);
 }
 
 .level1__background-orange3--space {
-    animation: 4s light-space-animation linear infinite;
+    animation: 2s light-space-animation linear infinite;
     position: absolute;
     background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);
-    height: 3px;
-    width: 5px;
+    height: 5px;
+    width: 10%;
 }
 
 .level1__background-orange3--position {
     position: absolute;
     width: 100%;
     height: 100%;
-    transform: rotate(-127deg);
-    top: -118%;
-    left: -3%;
+    transform: rotate(-121deg);
+    top: -85%;
+    left: 3%;
 }
 
 .light-relative-position {
@@ -228,48 +228,3 @@
     height: 100%;
     position: relative;
 }
-
-/*.level1__background-orange3--space {*/
-/*animation: 4s light-space-animation linear infinite;*/
-/*position: absolute;*/
-/*background: linear-gradient(90deg, transparent 0%, #1c1c1c 0%, #1c1c1c 100%, transparent 100%);*/
-/*height: 1px;*/
-/*width: 5px;*/
-/*}*/
-
-/*.light1-red {*/
-/*position: relative;*/
-/*height: 10px;*/
-/*background: linear-gradient(90deg, transparent 0%, red 0%, red 100%, transparent 100%);*/
-/*width: 100%;}*/
-
-/*.light1-animation {*/
-
-/*}*/
-/*.animation-space {*/
-/*position: absolute;*/
-/*animation: 4s light-space-animation infinite;*/
-/*background: linear-gradient(45deg, transparent 45%, #1c1c1c 49.5%, #1c1c1c 50.5%, transparent 100%);*/
-/*height: 25px;*/
-/*width: 25px;*/
-/*}*/
-
-/*.light {*/
-/*position: relative;*/
-/*background: linear-gradient(45deg, transparent 50.3%, deeppink 49.5%, deeppink 50.5%, transparent 50.5%);*/
-/*}*/
-
-/*.light-size-10 {*/
-/*height: 10%;*/
-/*width: 10%;*/
-/*}*/
-
-/*.light-size-20 {*/
-
-/*}*/
-
-/*.light-size-30 {*/
-
-/*}*/
-
-
