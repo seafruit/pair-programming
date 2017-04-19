@@ -97,20 +97,30 @@
                  data-1800="top: 6%" data-2200="display: block;"
                  data-2400="top: 0%"></div>
             <div class="video-frame__layer2"
-                 data-1600="top:32%"
+                 data-1600="top:30%"
                  data-1800="top: 16%" data-2200="display: block;"
                  data-2400="top: 0%"></div>
             <div class="video-frame__layer3"
-                 data-1600="top:38%"
+                 data-1600="top:35%"
                  data-1800="top: 19%" data-2200="display: block;"
                  data-2400="top: 0%"></div>
+            <div class="video__body__watch-video"
+                 data-1600="top:74%"
+                 data-1800="top: 40%" data-2200="top: 40%"
+                 data-2400="top: 1%">
+                <img src="img/watch-video.png" alt="">
+            </div>
             <div class="video-frame__layer4"
-                 data-1600="top:48%"
-                 data-1800="top: 24%" data-2200="display: block;"
+                 data-1600="top: 53%"
+                 data-1800="top: 30%" data-2200="display: block;"
                  data-2400="top: 0%">
                 <div class="video__body__background">
-                    <img src="img/watch-video.png" alt="" class="video__body__watch-video">
-                    <img src="img/watch-video-cn.png" alt="" class="video__body__watch-video-cn">
+                    <div class="video__body__watch-video-cn" onClick="videoPlayPause()">
+                        <video id="video-programming-tour" poster="img/watch-video-cn.png">
+                            <source src="video/thoughtWorks-programming-tour.mp4"></source>
+                        </video>
+                        <!--<img src="" alt="">-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -512,6 +522,7 @@
     var numberOfCoachEachTurn = 5;
     var numberOfBookEachTurn = 4;
 
+    var programmingTourVideo = document.getElementById("video-programming-tour");
 
     function prevArrow(isCoach) {
         if (isCoach) {
@@ -549,6 +560,23 @@
             }
         }
     }
+
+    programmingTourVideo.onended = function () {
+        programmingTourVideo.width = "50%";
+        programmingTourVideo.webkitExitFullscreen()
+
+    };
+
+    function videoPlayPause() {
+        if (programmingTourVideo.paused) {
+            programmingTourVideo.play();
+            programmingTourVideo.width = "100%";
+            programmingTourVideo.webkitRequestFullscreen();
+        } else {
+            programmingTourVideo.pause();
+        }
+    };
+
     function getQueryString(name) {
         var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
         var r = window.location.search.substr(1).match(reg);
