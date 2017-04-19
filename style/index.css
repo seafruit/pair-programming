@@ -250,8 +250,7 @@ button a {
     width: 48%;
     left: 26%;
     right: 26%;
-    padding-bottom: 20%;
-    padding-top: 6%;
+    padding-bottom: 27%;
     border: 1px solid #f8e952;
 }
 
@@ -264,18 +263,21 @@ button a {
     left: 34%;
 }
 .video__body__watch-video-cn {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
-.video__body__watch-video-cn video {
-    width: 100%;
+.video__body__watch-video-cn img {
+    position: absolute;
+    width: 40%;
 }
 
-video[poster]{
-    width:50%;
+.video__body__watch-video-cn video {
+    width: 100%;
+    z-index: 2;
 }
 
 .level1__header, .level2__header, .level3__header {

@@ -112,14 +112,14 @@
             </div>
             <div class="video-frame__layer4"
                  data-1600="top: 53%"
-                 data-1800="top: 30%" data-2200="display: block;"
+                 data-1800="top: 28%" data-2200="display: block;"
                  data-2400="top: 0%">
                 <div class="video__body__background">
                     <div class="video__body__watch-video-cn" onClick="videoPlayPause()">
-                        <video id="video-programming-tour" poster="img/watch-video-cn.png">
+                        <video id="video-programming-tour" poster="img/">
                             <source src="video/thoughtWorks-programming-tour.mp4"></source>
                         </video>
-                        <!--<img src="" alt="">-->
+                        <img src="img/watch-video-cn.png" alt="">
                     </div>
                 </div>
             </div>
@@ -562,7 +562,6 @@
     }
 
     programmingTourVideo.onended = function () {
-        programmingTourVideo.width = "50%";
         programmingTourVideo.webkitExitFullscreen()
 
     };
@@ -570,7 +569,6 @@
     function videoPlayPause() {
         if (programmingTourVideo.paused) {
             programmingTourVideo.play();
-            programmingTourVideo.width = "100%";
             programmingTourVideo.webkitRequestFullscreen();
         } else {
             programmingTourVideo.pause();
