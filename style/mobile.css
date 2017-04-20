@@ -3,7 +3,7 @@ html {
 }
 
 .level1-level2-level3__back-ground {
-    height: 1150%;
+    height: 1380%;
 }
 
 .banner {
@@ -66,8 +66,8 @@ html {
 }
 
 .last-part-do-not-parallax {
-    position: absolute;
-    top: 7800px;
+    /*position: absolute;*/
+    /*top: 7800px;*/
 }
 
 .about-us__tw {
