@@ -8,6 +8,7 @@ require.config({
 
 require(['skrollr'], function(skrollr){
 	var s = skrollr.init({
+		skrollrBody: 'skrollr-body',
 		edgeStrategy: 'set',
 		easing: {
 			WTF: Math.random,
