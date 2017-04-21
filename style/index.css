@@ -280,7 +280,7 @@ video[poster]{
 
 .level1__header, .level2__header, .level3__header {
     z-index: 1;
-    height: 10%;
+    height: 16%;
     display: flex;
     justify-content: center;
     align-items: center;
