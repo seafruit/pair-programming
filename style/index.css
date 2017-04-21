@@ -655,35 +655,15 @@ video[poster]{
 
 
 .coaches__photos, .books__covers {
-    width: 90%;
-    display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row;
-}
-
-.coaches__photos img {
-    width: 17%;
-}
-
-.img--show {
-    display: block;
-}
-
-.img--hide {
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .books__covers img {
-    width: 22%;
-}
-
-.book--show {
-    display: block;
-}
-
-.book--hide {
-    display: none;
+    height: 300px;
+    width: 220px;
 }
 
 .about-us__content {
@@ -752,4 +732,82 @@ video[poster]{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.books__right-arrow, .coaches__right-arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -20px;
+    background-repeat: no-repeat;
+    background-image: url('../img/right-arrow.png');
+    background-size: cover;
+}
+
+.books__left-arrow, .coaches__left-arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../img/left-arrow.png');
+}
+
+.bounce-right {
+  -moz-animation: bounce-right 2s infinite;
+  -webkit-animation: bounce-right 2s infinite;
+  animation: bounce-right 2s infinite;
+}
+
+@keyframes bounce-right {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(30px);
+  }
+  60% {
+    transform: translateX(15px);
+  }
+}
+
+.bounce-left {
+  -moz-animation: bounce-left 2s infinite;
+  -webkit-animation: bounce-left 2s infinite;
+  animation: bounce-left 2s infinite;
+}
+
+@keyframes bounce-left {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-30px);
+  }
+  60% {
+    transform: translateX(-15px);
+  }
+}
+
+.human-display {
+    position: relative;
+    width: 200px;
+    display: inline-block;
+}
+
+.human-display:hover .instruction {
+    display: block;
+}
+
+.instruction {
+    font-size: 0.45em;
+    color: white;
+    position: absolute;
+    width: 86%;
+    top: 0;
+    left: 7%;
+    display: none;
 }
