@@ -800,11 +800,13 @@ button a {
     font-size: 0.45em;
     color: white;
     position: absolute;
-    width: 171px;
+    width: 85%;
     height: 100%;
     padding-left: 7%;
     padding-right: 7%;
     top: 0;
-    background-color: rgba(193, 193, 193, .6);
+    background-color: rgba(140, 16, 24, .6);
     display: none;
+    vertical-align: middle;
+    overflow: auto;
 }
