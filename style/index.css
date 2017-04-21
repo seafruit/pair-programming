@@ -801,8 +801,11 @@ button a {
     font-size: 0.45em;
     color: white;
     position: absolute;
-    width: 86%;
+    width: 171px;
+    height: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
     top: 0;
-    left: 7%;
+    background-color: rgba(193, 193, 193, .4);
     display: none;
 }
