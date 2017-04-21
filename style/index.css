@@ -651,32 +651,9 @@ button a {
     margin-right: auto;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480) {
-    .books__covers img {
-        height: 80px;
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 720) {
-    .books__covers img {
-        height: 150px;
-    }
-}
-
-@media screen and (min-width: 720px) and (max-width: 1080) {
-    .books__covers img {
-        height: 220px;
-    }
-}
-
-@media screen and (min-width: 1080px) {
-    .books__covers img {
-        height: 300px;
-    }
-}
-
 .books__covers img {
-    width: 90%;
+    width: 220px;
+    height: 300px;
 }
 
 .about-us__content {
@@ -812,6 +789,7 @@ button a {
 
 .human-display {
     position: relative;
+    width: 200px;
     display: inline-block;
 }
 
