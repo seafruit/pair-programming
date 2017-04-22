@@ -784,19 +784,21 @@
 </script>
 </body>
 <script>
-    var siemaHuman = new Siema({
-        selector: '.siema1',
-        perPage: 5,
-        duration: 700,
-        loop: true,
-    });
-
-    var siemaBook = new Siema({
-        selector: '.siema2',
-        duration: 600,
-        perPage: 4,
-        loop: true,
-    });
+    var siemaHuman, siemaBook
+    if (Siema) {
+        siemaHuman = new Siema({
+            selector: '.siema1',
+            perPage: 5,
+            duration: 700,
+            loop: true,
+        });
+        siemaBook = new Siema({
+            selector: '.siema2',
+            duration: 600,
+            perPage: 4,
+            loop: true,
+        });
+    }
 
     var autoHuman = setInterval(setHuman, 3000);
 
