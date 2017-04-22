@@ -15,6 +15,23 @@ a {
 
 button a {
     color: #1c1c1c;
+    display: inline-block;
+    width:100%;
+}
+
+.relative_the_section {
+    position: relative;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.column_width_height_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 
 .banner {
@@ -30,14 +47,9 @@ button a {
 
 .banner__logo {
     position: relative;
-    /*height: 6%;*/
     width: 30%;
-    /* flex: 1 0 30%; */
-    /* flex-direction: column; */
     display: flex;
     align-items: center;
-    /*width: 88%;*/
-    /*align-items: flex-start;*/
 }
 
 .banner__button {
@@ -69,6 +81,7 @@ button a {
     border: none;
     background: #f8e952;
     font-size: 0.5rem;
+    width:100%;
 }
 
 .begin {
@@ -472,6 +485,7 @@ button a {
 .level3 {
     top: 0%;
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

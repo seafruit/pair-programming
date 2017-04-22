@@ -3,7 +3,7 @@ html {
 }
 
 .level1-level2-level3__back-ground {
-    height: 1380%;
+    height: 1000%;
 }
 
 .banner {
@@ -12,6 +12,11 @@ html {
 
 .begin__body {
     width: 100%;
+}
+
+.video__body__watch-video-cn img {
+    left: 30%;
+    top: 13%;
 }
 
 .foot__entry-point {
@@ -67,7 +72,7 @@ html {
 
 .last-part-do-not-parallax {
     position: absolute;
-    top: 7800px;
+    top: 1600px;
 }
 
 .about-us__tw {
