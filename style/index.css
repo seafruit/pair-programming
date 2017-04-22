@@ -27,12 +27,8 @@ img {
     width: 100%;
 }
 
-.level2__body__height, .level3__body__height {
+.level1__body__height, .level2__body__height, .level3__body__height {
     height: 50%;
-}
-
-.level1__body__height {
-    height: 35%;
 }
 
 .column_width_height_center {

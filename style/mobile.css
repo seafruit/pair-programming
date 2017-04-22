@@ -19,6 +19,16 @@ html {
     top: 13%;
 }
 
+.level3__body {
+    height: 100%;
+}
+
+.level3__background {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .foot__entry-point {
     width: 100%;
     justify-content: space-between;
