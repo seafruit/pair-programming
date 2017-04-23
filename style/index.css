@@ -582,6 +582,7 @@ img {
 
 /*---------------------------------------------activity-start-----------------------------------------------*/
 .activity, .awards {
+    width:100%;
     display: flex;
     align-items: center;
     flex-direction: column;
