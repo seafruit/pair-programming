@@ -11,6 +11,20 @@
     <link rel="stylesheet" type="text/css" href="style/level1-light-animation.css">
     <script src="script/siema.min.js"></script>
     <title>ThoughtWorks Pair Programming</title>
+    <script type="text/javascript">
+        function displayLoading() {
+            document.getElementById("over").style.display = "none";
+            document.getElementById('layout').style.display = 'none';
+            document.getElementById('main').style.opacity = '1';
+        }
+
+        var t = setInterval(function () {
+            if (document.readyState == "complete") {
+                clearInterval(t);
+                displayLoading();
+            }
+        }, 500);
+    </script>
 </head>
 <body>
 <div id="over" class="over"></div>
@@ -122,7 +136,7 @@
                     <div class="video__body__background">
                         <div class="video__body__watch-video-cn" onClick="videoPlayPause()">
                             <video id="video-programming-tour" preload="none">
-                                <source src="http://7xlgq2.com1.z0.glb.clouddn.com/final.mp4">
+                                <source src="http://7xlgq2.com1.z0.glb.clouddn.com/final.`">
                                 </source>
                             </video>
                             <img src="img/watch-video-cn.png" alt="">
