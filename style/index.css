@@ -76,6 +76,10 @@ img {
     justify-content: center;
 }
 
+.fixed__sign-up__button:hover {
+    box-shadow: 0 0 0.3rem rgba(248,233,116, 0.8);
+}
+
 .fixed__sign-up__button button {
     border: none;
     background: #f8e952;
@@ -95,9 +99,9 @@ img {
 
 .begin__header {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
-    height: 5%;
+    height: 8%;
     width: 70%;
     font-size: 0.5rem;
 }
@@ -151,6 +155,11 @@ img {
     border-radius: 0.2rem;
     background: #f8e952;
     font-size: 0.5rem;
+    padding: 0.2rem 0;
+}
+
+.begin__sign-up__button:hover {
+    box-shadow: 0 0 0.3rem rgba(248,233,116, 0.8);
 }
 
 .begin__sign-up__button button {
