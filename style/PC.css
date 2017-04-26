@@ -1,5 +1,5 @@
 html {
-    font-size: 25px;
+    font-size: 36px;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 .banner {
-    height: 6%;
+    height: 8%;
 }
 
 .level2__body, .level3__body, .begin__body {
@@ -61,7 +61,6 @@ body {
 
 .activity-detail {
     font-size: .5rem;
-    padding: .5rem 0;
     margin-top: 1rem;
     width: 70%;
 }
@@ -71,7 +70,7 @@ body {
 }
 
 .activity-detail__process {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     line-height: 1rem;
 }
 
