@@ -31,7 +31,7 @@ function setCookie() {
   }
   var program = getQueryString('program');
   if (program) {
-    document.cookie = 'program=' + program;
+    document.cookie = 'program=' + program + ';path=/;domain=school.thoughtworks.cn';
   }
 }
 setCookie();
