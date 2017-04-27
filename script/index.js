@@ -12,7 +12,7 @@ function videoPlayPause() {
   } else {
     programmingTourVideo.pause();
   }
-};
+}
 
 function getQueryString(name) {
   var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
@@ -22,19 +22,13 @@ function getQueryString(name) {
   }
   return null;
 }
-function setCookie() {
-  var channel = getQueryString('channel');
-  if (channel) {
-    document.cookie = 'channel=' + channel;
-  } else {
-    document.cookie = 'channel=' + '';
-  }
+
+function setCookie(num) {
   var program = getQueryString('program');
-  if (program) {
-    document.cookie = 'program=' + program + ';path=/;domain=school.thoughtworks.cn';
+  if(program){
+    document.getElementsByClassName('login-sys')[num].href='/learn/?program=' + program;
   }
 }
-setCookie();
 
 function bling() {
   var imgs = document.getElementsByClassName('heavenly-body__light');
