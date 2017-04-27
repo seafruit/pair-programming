@@ -727,10 +727,9 @@ img {
     justify-content: space-between;
 }
 
-.about-us__tw__title {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: .5rem;
+.thought-works-logo {
+    vertical-align: middle;
+    width: 50%;
 }
 
 .about-us__tw__detail {
