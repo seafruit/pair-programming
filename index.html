@@ -24,6 +24,7 @@
           displayLoading();
         }
       }, 500);
+
     </script>
 </head>
 <body>
@@ -55,7 +56,7 @@
                 </div>
                 <div class="begin__sign-up">
                     <div class="begin__sign-up__button">
-                        <button><a href="/learn/register.html#register">我要报名</a></button>
+                        <button><a class="login-sys" href="/learn/" onclick="setCookie(0)">我要报名</a></button>
                     </div>
                     <img src="img/ground.png" alt="" class="begin__sign-up__ground">
                 </div>
@@ -725,9 +726,9 @@
         </div>
         <div class="banner__button">
             <div class="fixed__sign-up__button"
-                 data-1600="opacity: 0;"
+                 datay-1600="opacity: 0;"
                  data-1800="display: fixed; top: 10%; right: 6%; opacity: 1">
-                <button><a href="/learn/register.html#register">我要报名</a></button>
+                <button><a class="login-sys" href="/learn/" onclick="setCookie(1)">我要报名</a></button>
             </div>
         </div>
     </div>
@@ -799,5 +800,6 @@
             siemaBook.next(4);
         }
     }
+
 </script>
 </html>
