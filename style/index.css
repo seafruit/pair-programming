@@ -45,6 +45,7 @@ img {
     top: 0%;
     left: 0%;
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-around;
 }
@@ -220,25 +221,30 @@ img {
     align-items: center;
     font-size: 0.5rem;
     height: 5%;
-    width: 70%;
+    width: 60%;
+    left: 20%;
     text-transform: uppercase;
 }
 
 .video__body {
     position: relative;
-    padding-bottom: 40%;
-    width: 70%;
+    padding-bottom: 30%;
+    width: 60%;
+}
+
+.video-frame__layer0 {
     border: 1px solid #f8e952;
+    width: 50%;
+    padding: 25%;
 }
 
 .video-frame__layer1 {
-    padding-bottom: 50%;
+    padding-bottom: 44%;
     height: 0;
     width: 77%;
     left: 12%;
     right: 12%;
     border: 1px solid #f8e952;
-
 }
 
 .video-frame__layer2 {
@@ -246,7 +252,7 @@ img {
     width: 63%;
     left: 19%;
     right: 19%;
-    padding-bottom: 40%;
+    padding-bottom: 34%;
     border: 1px solid #f8e952;
 
 }
@@ -256,7 +262,7 @@ img {
     width: 58%;
     left: 21%;
     right: 21%;
-    padding-bottom: 37%;
+    padding-bottom: 31%;
     border: 1px solid #f8e952;
 
 }
@@ -266,7 +272,7 @@ img {
     width: 48%;
     left: 26%;
     right: 26%;
-    padding-bottom: 27%;
+    padding-bottom: 22%;
     border: 1px solid #f8e952;
 }
 
