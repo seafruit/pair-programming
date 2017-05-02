@@ -24,10 +24,7 @@ function getQueryString(name) {
 }
 
 function setCookie(num) {
-  var program = getQueryString('program');
-  if(program){
-    document.getElementsByClassName('login-sys')[num].href='/learn/?program=' + program;
-  }
+    document.getElementsByClassName('login-sys')[num].href='/learn/?program=TDBRRFZE';
 }
 
 function bling() {
